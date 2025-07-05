@@ -1,0 +1,11 @@
+langchain
+langchain-community
+boto3
+python-dotenv
+python-pptx
+unstructured
+unstructured[pdf,pptx,docx,xlsx]
+pymupdf
+python-pptx
+unstructured[pdf,docx,pptx]
+python-docx
