@@ -17,20 +17,45 @@ Expectation Identifier: 0.87 - Mentions of submission deadlines and response for
 {text.strip()}
 """
 
-def tag_expectation_identifier(chunks: List[Dict]) -> List[Dict]:
+# rag/solicitation_tagging.py
+
+def tag_expectation_identifier(chunks, capture_context=None):
+    from rag.llm_client_claude import invoke_claude
+
+    tagged = []
+    win_theme_text = ""
+    if capture_context and isinstance(capture_context, dict):
+        win_theme_text = "\n\n".join(
+            ["* " + item for section in capture_context.values() for item in section]
+        )[:4000]  # keep it bounded
+
     for chunk in chunks:
-        prompt = build_expectation_prompt(chunk["text"])
+        win_theme_block = f"Here are the known client win themes:\n{win_theme_text}\n\n" if win_theme_text else ""
+        prompt = (
+            "You are a federal RFP response analyst.\n\n"
+            "Below is a chunk of a solicitation. Identify whether it contains implicit or explicit expectations from the client.\n\n"
+            "Return a score from 0.0 (no expectations) to 1.0 (strong expectations) and explain briefly.\n\n"
+            f"{win_theme_block}"
+            "Chunk:\n" +
+            '"""\n' + chunk['text'] + '\n"""\n\n'
+            "Respond in this format:\n"
+            "Score: <float between 0.0 and 1.0>\n"
+            "Reason: <short explanation>"
+        )
+
         try:
             response = invoke_claude(prompt)
-            print(f"\n🔍 [expectation_identifier] Chunk {chunk['chunk_id']}:\n{response}")
-            match = next((s for s in response.split() if s.replace(".", "", 1).isdigit()), "0.0")
-            score = round(float(match), 2)
-        except Exception as e:
-            print(f"❌ Claude call failed: {e}")
+            score_line = next((l for l in response.splitlines() if "score" in l.lower()), None)
+            score = float(score_line.split(":")[-1].strip()) if score_line else 0.0
+        except Exception:
             score = 0.0
 
-        chunk["metadata"].setdefault("agent_tags", {})["expectation_identifier"] = score
-    return chunks
+        chunk.setdefault("metadata", {}).setdefault("agent_tags", {})
+        chunk["metadata"]["agent_tags"]["expectation_identifier"] = score
+        tagged.append(chunk)
+
+    return tagged
+
 
 # === 2. Evaluation Criteria Identifier ===
 def tag_eval_criteria_chunks(chunks: List[Dict]) -> List[Dict]:

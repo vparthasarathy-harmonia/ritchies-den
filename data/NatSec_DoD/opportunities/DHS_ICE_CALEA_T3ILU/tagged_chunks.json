@@ -1,1 +1,342 @@
-[]
+[
+  {
+    "chunk_id": "9352b220",
+    "text": "Breadcrumb: Unknown > Page 0\n\n70CMSD25Q00000007 Attachment # 2 Statement of Work (SOW)\n\nTitle III and Linguists Unit (T3LU) Communications Assistance for Law Enforcement Act (CALEA) Network and Intercept Operation Support Services\n\nStatement of Work (SOW)\n\nWashington, DC\n\nJune 24, 2025\n\n2\n\n70CMSD25Q00000007 Attachment # 2 Statement of Work (SOW)\n\nContents",
+    "metadata": {
+      "opportunity_name": "DHS_ICE_CALEA_T3ILU",
+      "source_document": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+      "contains_bullets": false,
+      "agent_tags": {
+        "expectation_identifier": 0.0,
+        "eval_criteria_identifier": 0.0,
+        "win_theme_mapper": {
+          "score": 0.1,
+          "label": "none"
+        }
+      }
+    }
+  },
+  {
+    "chunk_id": "24c009f8",
+    "text": "Breadcrumb: Unknown > Page 0\n\nPROJECT TITLE ......................................................................................................................................................... 5 BACKGROUND .......................................................................................................................................................... 5 SCOPE OF WORK ....................................................................................................................................................... 5 APPLICABLE POLICIES AND STANDARDS ......................................................................................................... 6 DHS Enterprise Architecture Compliance .................................................................................................................... 7 System Architecture Standards ..................................................................................................................................... 7 4.2.1 ICE Application Architecture Compliance ............................................................................................................... 7 4.2.2 Open Source Compliance ......................................................................................................................................... 8 TASKS ......................................................................................................................................................................... 8 CALEA NETWORK SUPPORT ................................................................................................................................. 8 5.1.1 SYSTEM ADMINISTRATION AND SYSTEMS ENGINEERING SUPPORT ........................................................ 9 5.1.2 VIRTUAL ENVIRONMENT SUPPORT .................................................................................................................. 10 5.1.3 ACTIVE DIRECTORY ORGANIZATIONAL UNIT ADMINISTRATION SUPPORT ......................................... 11 5.1.4 STORAGE ADMINISTRATION SUPPORT ............................................................................................................ 12 5.1.5 CALEA ARCHITECTURE SUPPORT ..................................................................................................................... 12 5.1.6 CONTINUITY OF OPERATIONS SITE SUPPORT ................................................................................................ 12 FIELD OPERATIONS SUPPORT ............................................................................................................................. 12 5.2 TECHNICAL SERVICE SUPPORT .......................................................................................................................... 14 5.3 INVENTORY SUPPORT .......................................................................................................................................... 14 5.4 GOVERNMENT FURNISHED EQUIPMENT (GFE) .............................................................................................. 15 6.0 TRAVEL .................................................................................................................................................................... 15 7.0 GENERAL TRAVEL GUIDELINES ........................................................................................................................ 16 7.1 TYPES OF TRAVEL ................................................................................................................................................. 17 7.2 PLACE OF PERFORMANCE ................................................................................................................................... 17 8.0 PERIOD OF PERFORMANCE ................................................................................................................................. 17 9.0 10.0 WORK SCHEDULE .................................................................................................................................................. 18 10.1 HOURS OF WORK ................................................................................................................................................... 18 11.0 TECHNICAL TRAINING ......................................................................................................................................... 18 12.0 DELIVERABLES AND DELIVERY SCHEDULE .................................................................................................. 19 12.1 KICK-OFF PRESENTATION (POST-AWARD) MEETING ................................................................................... 20 PROJECT MANAGEMENT PLAN .......................................................................................................................... 20 12.2 12.3 MONTHLY PROJECT STATUS REPORT .............................................................................................................. 20 12.4 STANDARD OPERATING PROCEDURES (SOPS) ............................................................................................... 21 12.5 MEETING AGENDA REPORT ................................................................................................................................ 21 12.6 MEETING MINUTES REPORT ............................................................................................................................... 21 PROGRAM MANAGEMENT REVIEW REPORT .................................................................................................. 21 12.7",
+    "metadata": {
+      "opportunity_name": "DHS_ICE_CALEA_T3ILU",
+      "source_document": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+      "contains_bullets": false,
+      "agent_tags": {
+        "expectation_identifier": 0.0,
+        "eval_criteria_identifier": 0.0,
+        "win_theme_mapper": {
+          "score": 0.1,
+          "label": "none"
+        }
+      }
+    }
+  },
+  {
+    "chunk_id": "57fbc26d",
+    "text": "Breadcrumb: Unknown > Page 0\n\n1.0 2.0 3.0 4.0 4.1 4.2\n\n5.0 5.1\n\n3\n\n70CMSD25Q00000007 Attachment # 2 Statement of Work (SOW)",
+    "metadata": {
+      "opportunity_name": "DHS_ICE_CALEA_T3ILU",
+      "source_document": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+      "contains_bullets": false,
+      "agent_tags": {
+        "expectation_identifier": 0.0,
+        "eval_criteria_identifier": 0.0,
+        "win_theme_mapper": {
+          "score": 0.2,
+          "label": "none"
+        }
+      }
+    }
+  },
+  {
+    "chunk_id": "bba2cc98",
+    "text": "Breadcrumb: Unknown > Page 0\n\n12.8 GFE INVENTORY REPORT .................................................................................................................................... 21 12.9 DATA CALL RESPONSE REPORT ........................................................................................................................ 21 12.10 DELIVERY INSTRUCTIONS ................................................................................................................................... 22 12.11 WRITTEN ACCEPTANCE/REJECTION BY THE GOVERNMENT ..................................................................... 22 12.12 NON-CONFORMING PRODUCTS OR SERVICES ............................................................................................... 22 12.13 NOTICE REGARDING LATE DELIVERY ............................................................................................................. 23 12.14 DRAFT DELIVERABLES ......................................................................................................................................... 23 12.15 TRANSITION-IN PLAN ........................................................................................................................................... 23 12.16 TRANSITION-OUT PLAN ....................................................................................................................................... 23 13.0 CONTRACTOR PERSONNEL ................................................................................................................................. 24 13.1 SME NETWORK AND COMPUTER SYSTEMS ADMINISTRATOR ................................................................... 25 13.2 NETWORK AND COMPUTER SYSTEMS ADMINISTRATOR ........................................................................... 26 JOURNEYMAN MANAGEMENT ANALYST ....................................................................................................... 27 13.3 SENIOR COMPUTER SYSTEMS ANALYST ........................................................................................................ 28 13.4 SECURITY ................................................................................................................................................................. 29 14.0 15.0 PRIVACY REQUIREMENTS FOR CONTRACTOR AND PERSONNEL .................................................................. 34 APPENDIX A: ACRONYMS ................................................................................................................................................ 37 Appendix # 1: General Cybersecurity Requirements ........................................................................................................... 56 Appendix # 2 Section 508 Accessibility Supplement .......................................................................................................... 60",
+    "metadata": {
+      "opportunity_name": "DHS_ICE_CALEA_T3ILU",
+      "source_document": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+      "contains_bullets": false,
+      "agent_tags": {
+        "expectation_identifier": 0.0,
+        "eval_criteria_identifier": 0.0,
+        "win_theme_mapper": {
+          "score": 0.1,
+          "label": "none"
+        }
+      }
+    }
+  },
+  {
+    "chunk_id": "d4d9ccff",
+    "text": "Breadcrumb: Unknown > Page 0\n\n4\n\n70CMSD25Q00000007 Attachment # 2 Statement of Work (SOW)\n\n1.0 PROJECT TITLE\n\nStatement of Work (SOW) for the Title III and Linguists Unit (T3LU) Communications Assistance for Law Enforcement Act (CALEA) Network and Intercept Operation Support Services.\n\n2.0 BACKGROUND\n\nThe U.S. Immigration and Customs Enforcement (ICE), the largest investigative arm in the U.S. Department of Homeland Security (DHS), is responsible for identifying and shutting down vulnerabilities in the nation\u2019s border, economic, transportation, and infrastructure security.\n\nThe Homeland Security Investigation\u2019s (HSI), Cyber and Operational Technology (COT), Technical Operations Center (TOC), Title III and Linguists Unit is responsible for providing field-wide deployment and maintenance of telecommunications intercept collection systems in support of criminal investigations.\n\nHSI utilizes the CALEA network to receive, process, buffer and transmit court authorized intercepted communications. The CALEA network is not part of the corporate infrastructure and is not supported by the Office of the Chief Information Officer (OCIO) corporate support solution. This network contains numerous law enforcement systems that have the sole purpose of conducting the lawful interception and collection of evidentiary information for criminal proceeding.",
+    "metadata": {
+      "opportunity_name": "DHS_ICE_CALEA_T3ILU",
+      "source_document": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+      "contains_bullets": false,
+      "agent_tags": {
+        "expectation_identifier": 0.2,
+        "eval_criteria_identifier": 0.0,
+        "win_theme_mapper": {
+          "score": 0.2,
+          "label": "none"
+        }
+      }
+    }
+  },
+  {
+    "chunk_id": "ca02db07",
+    "text": "Breadcrumb: Unknown > Page 0\n\nThe Communication Intercepts Support Team (CIST) offers engineering and technical support for Title III equipment and the Communications Assistance for Law Enforcement Act (CALEA) network. CIST is tasked with overseeing and coordinating the placement of Government and Contractor system administrators, as well as Information Technology professionals, at designated regional collection facilities. Their role is to support the Title III systems deployed by the COT-TOC. These Title III systems are responsible for processing and displaying lawfully collected data from the regional CIST. .\n\n3.0 SCOPE OF WORK\n\nThe scope of this effort is to the T3LU CALEA Network and Intercept Operation Support Services. Specific services are:\n\nCALEA Network Support \u2022 System Administration \u2022 System Engineering Support \u2022 Virtual Environment Support \u2022 Active Directory Organizational Unit Administration Support \u2022 Storage Administration Support \u2022 CALEA Architecture Support \u2022 Continuity of Operations (COOP) Site Support 5\n\n70CMSD25Q00000007 Attachment # 2 Statement of Work (SOW)\n\nField Operations Support \u2022 Technical Service Support \u2022 \u2022 Data Analyst Support (Optional) Inventory Support\n\n4.0 APPLICABLE POLICIES AND STANDARDS\n\nThe Contractor shall comply with the latest version of all technology standards and architecture policies, processes, and procedures applicable to the ICE Information Technology environment. These publications are available on request and include, but are not limited to, the following:",
+    "metadata": {
+      "opportunity_name": "DHS_ICE_CALEA_T3ILU",
+      "source_document": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+      "contains_bullets": true,
+      "agent_tags": {
+        "expectation_identifier": 0.2,
+        "eval_criteria_identifier": 0.0,
+        "win_theme_mapper": {
+          "score": 0.2,
+          "label": "none"
+        }
+      }
+    }
+  },
+  {
+    "chunk_id": "1066f250",
+    "text": "Breadcrumb: Unknown > Page 0\n\nDHS 4300A Sensitive Systems Handbook; \u2022 DHS 4300A Sensitive Systems Policy Directive; \u2022 DHS 4300B National Security Systems Handbook; \u2022 DHS Management Directive (MD) 4300, IT Systems Security Publication; \u2022 DHS MD 4010.2 (DRAFT), Section 508 Program Management Office &Electronic And Information Technology Accessibility;\n\nDHS Systems Engineering Life Cycle Guidebook; \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 \u2022 National Institute of Standards and Technology (NIST) Computer Security Resources Center (CSRC) standards, guidelines, and special publications;\n\nICE Technical Reference Model; ICE Application Security Cyber Security Standard (CSS); ICE Architecture Test and Evaluation Plan; ICE Cybersecurity Standards; ICE Enterprise Systems Assurance Plan; ICE System Lifecycle Management (SLM) Handbook; ICE Web Standards and Guidelines;\n\nPrivacy Act of 1974; \u2022 Section 508 1194.2, Section 508 of the Rehabilitation Act (29 U.S.C. 794d), as amended by the Workforce Investment Act of 1998 (P.L. 105-220);\n\nFurther, the Contractor shall comply with the following DHS Enterprise Architecture (EA) requirements:\n\nAll IT hardware or software shall be complaint with the DHS EA and ICE Technical Reference Model (TRM) Standards and Products Profile.\n\nAll encryption shall be Federal Information Processing Standard (FIPS) 197 Advanced Encryption Standard (AES) that has been FIPS 140-2 certified;\n\nAll data assets, information exchanges, and data standards, whether adopted or developed,\n\n6",
+    "metadata": {
+      "opportunity_name": "DHS_ICE_CALEA_T3ILU",
+      "source_document": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+      "contains_bullets": true,
+      "agent_tags": {
+        "expectation_identifier": 1.0,
+        "eval_criteria_identifier": 0.5,
+        "win_theme_mapper": {
+          "score": 0.2,
+          "label": "win theme"
+        }
+      }
+    }
+  },
+  {
+    "chunk_id": "75f066c5",
+    "text": "Breadcrumb: Unknown > Page 0\n\n70CMSD25Q00000007 Attachment # 2 Statement of Work (SOW)\n\nshall be submitted to the DHS Enterprise Data Management Office (EDMO) for review and insertion into the DHS Data Reference Model;\n\nIn compliance with Office of Management and Budget (OMB) mandate, all network hardware shall be Internet Protocol version 6 (IPv6) compatible without modification, upgrade, or replacement; and\n\nThe Contractor shall not deviate from the SLM process without express approval granted by the Contracting Officer\u2019s Representative (COR).\n\n4.1 DHS Enterprise Architecture Compliance\n\nAll solutions and services shall meet DHS Enterprise Architecture (EA) policies, standards, and procedures. Specifically, the Contractor shall comply with the following DHS EA requirements:\n\nAll developed solutions and requirements shall be compliant with the DHS EA. \u2022 Description information for all data assets, information exchanges and data standards, whether adopted or developed, shall be submitted to the Enterprise Data Management Office (EDMO) for review, approval and insertion into the DHS Data Reference Model and Enterprise Architecture Information Repository.\n\nDevelopment of data assets, information exchanges and data standards will comply with the DHS Enterprise Data Management Policy Directive 103-01 and all data-related artifacts will be developed and validated according to DHS data management architectural guidelines.",
+    "metadata": {
+      "opportunity_name": "DHS_ICE_CALEA_T3ILU",
+      "source_document": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+      "contains_bullets": true,
+      "agent_tags": {
+        "expectation_identifier": 1.0,
+        "eval_criteria_identifier": 0.5,
+        "win_theme_mapper": {
+          "score": 0.2,
+          "label": "not relevant"
+        }
+      }
+    }
+  },
+  {
+    "chunk_id": "c40bb94f",
+    "text": "Breadcrumb: Unknown > Page 0\n\nApplicability of Internet Protocol Version 6 (IPv6) to DHS-related components (networks, infrastructure, and applications) specific to individual acquisitions shall be in accordance with the DHS Enterprise Architecture (per OMB Memorandum M-05-22, August 2, 2005) regardless of whether the acquisition is for modification, upgrade, or replacement. All EA- related component acquisitions shall be IPv6 compliant as defined in the U.S. Government Version 6 (USGv6) Profile (National Institute of Standards and Technology (NIST) Special Publication 500-267) and the corresponding declarations of conformance defined in the USGv6 Test Program.\n\n4.2 System Architecture Standards\n\n4.2.1 ICE Application Architecture Compliance\n\nThe Contractor shall ensure that the application is designed and developed for browser independence; i.e., the application will generally work with any of the major browsers. ICE currently uses Chrome for Work, secured with centrally managed security policies. Browser specific implementations or limitations on browser independence must be approved in writing by ICE OCIO prior to development. Web Applications should be designed utilizing a responsive web design (RWD) approach, to provide an optimal viewing and interaction experience, independent of the particular platform capabilities the end user is utilizing. If ICE OCIO upgrades to a newer version of IE or Chrome for Work, the Contractor shall ensure the application is compatible with the future version.\n\n7",
+    "metadata": {
+      "opportunity_name": "DHS_ICE_CALEA_T3ILU",
+      "source_document": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+      "contains_bullets": true,
+      "agent_tags": {
+        "expectation_identifier": 1.0,
+        "eval_criteria_identifier": 0.0,
+        "win_theme_mapper": {
+          "score": 0.1,
+          "label": "not applicable"
+        }
+      }
+    }
+  },
+  {
+    "chunk_id": "2393959f",
+    "text": "Breadcrumb: Unknown > Page 0\n\n70CMSD25Q00000007 Attachment # 2 Statement of Work (SOW)\n\n4.2.2 Open Source Compliance\n\nThe Contractor shall follow the ICE Open Source Manifesto when evaluating any technologies, tools, software, and/or application programmable interfaces (API\u2019s) to support a system. The Contractor shall prioritize the adoption of, and migration to, Open Source technologies over proprietary or \u201cclosed\u201d technologies.\n\n5.0 TASKS\n\nThe objective of the T3LU CALEA Network and Intercept Operation Support Services is to acquire a qualified Contractor to provide the full range of technical services required for the Title III systems and CALEA network in support of the intelligence and investigative priorities of HSI\u2019s mission.\n\nThe Contractor shall provide qualified, experienced personnel to perform the service and support tasks listed in this SOW. The Contractor shall also proficiently manage well-qualified IT professionals who are geographically located throughout spread across the Continental United States (CONUS), plus U.S. territories.\n\n5.1 CALEA NETWORK SUPPORT",
+    "metadata": {
+      "opportunity_name": "DHS_ICE_CALEA_T3ILU",
+      "source_document": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+      "contains_bullets": false,
+      "agent_tags": {
+        "expectation_identifier": 0.2,
+        "eval_criteria_identifier": 0.0,
+        "win_theme_mapper": {
+          "score": 0.1,
+          "label": "none"
+        }
+      }
+    }
+  },
+  {
+    "chunk_id": "7bb54888",
+    "text": "Breadcrumb: Unknown > Page 0\n\nThe Contractor shall provide the necessary personnel and technical resources to provide full- time support and emergency after-hours support to a variety of operational technology systems at the Lorton, VA ICE office or other designated ICE Field Offices. The Contractor shall support the design, implementation, testing, operation, maintenance and administration of the CALEA Local Area Network (LAN) and Wide Area Network (WAN) infrastructure. The Contractor shall provide support with the installation of the LAN / WAN and related equipment. The Contractor shall be responsible for CALEA network. This includes:\n\na. Maintain the network, including the LAN/WAN links and connectivity, switches, routers, firewalls, servers (Microsoft Windows and Unix Operating System), Storage Area Network (SAN), media backup systems, fiber and Ethernet cabling, and other infrastructure components;\n\nb. Provide network security, assuring the LAN shall only be available to personnel authorized by the Government; not permitting any non- Government authorized network LAN and WAN access;\n\nc. Support the Government in the design of future network architecture to include, routers, switches, firewalls, Virtual Private Networks (VPNs), Servers, SAN, Virtualization Machine Ware (VMware) Environment, cable management systems and other network enhancements;\n\nd. Analyze the network architecture utilizing metrics available from network management",
+    "metadata": {
+      "opportunity_name": "DHS_ICE_CALEA_T3ILU",
+      "source_document": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+      "contains_bullets": true,
+      "agent_tags": {
+        "expectation_identifier": 0.8,
+        "eval_criteria_identifier": 0.0,
+        "win_theme_mapper": {
+          "score": 0.6,
+          "label": "win theme"
+        }
+      }
+    }
+  },
+  {
+    "chunk_id": "4c466c10",
+    "text": "Breadcrumb: Unknown > Page 0\n\ntools to identify modifications required to maintain optimum efficiency;\n\ne. Support network design, development, test, implementation, and\n\nperformance of maintenance and administration of the LAN/WAN and all associated support infrastructure components;\n\nf. Perform steps to ensure maximum systems availability (minimize\n\ncollection systems and end-users\u2019 downtime);\n\n8\n\n70CMSD25Q00000007 Attachment # 2 Statement of Work (SOW)\n\ng. Implement and maintain software and application configuration\n\nmanagement and configuration reporting;\n\nh. Install and update anti-virus software and anti-virus signature files on all\n\ni.\n\nnetwork assets; Install security patches to protect against Information Assurance vulnerabilities;\n\nj. Operate and maintain SAN, application servers, archiving systems and\n\ncomputer clusters;\n\nk. Install Government Public Key Infrastructure (PKI) server side\n\ncertificates and implement Secure Sockets Layer (SSL) and other secure methods of data transmission including support to the VPN and VPN servers; and Structured Query Language (SQL) servers;\n\nl. Support the Government certification and accreditation process, including applying approved security and vulnerability patches to all managed systems;\n\nm. Support use of the DHS Personal Identity Verification (PIV) cards and\n\nPKI to support user authentication into the network, into applications, and for signing and encrypting electronic mail;\n\nn. Test and deploy client software packages utilizing automated delivery",
+    "metadata": {
+      "opportunity_name": "DHS_ICE_CALEA_T3ILU",
+      "source_document": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+      "contains_bullets": false,
+      "agent_tags": {
+        "expectation_identifier": 0.8,
+        "eval_criteria_identifier": 0.0,
+        "win_theme_mapper": {
+          "score": 0.3,
+          "label": "win theme"
+        }
+      }
+    }
+  },
+  {
+    "chunk_id": "eff8617f",
+    "text": "Breadcrumb: Unknown > Page 0\n\nand installation tools;\n\no. Responsible for any new peripheral or computer systems attached to the\n\nsystems network;\n\np. Ensure uninterruptible power supplies are operational and the batteries hold charges; q. Implement other best business practices for keeping the network\n\ninfrastructure secure, efficient and responsive with the approval of the CIST Program Manager(s);\n\nr. Support design and implementation of the LAN, infrastructure to include\n\nfiber and Ethernet cabling and other infrastructure components. s. Support design of future network requirements to include network\n\nswitches, servers, Storage Area Nodes, cable management systems and other network enhancements. Support migration of services and servers to enterprise platforms; and\n\nt. Perform inventory, logistical, and clerical support for shipments and\n\ndeliveries of operational equipment.\n\n5.1.1 SYSTEM ADMINISTRATION AND SYSTEMS ENGINEERING SUPPORT\n\nThe Contractor shall provide systems analysis, evaluation, design, integration, documentation, and implementation applications. This includes:\n\na. Participate in phases of technical solution development to include analysis, evaluation, integration, testing and acceptance phases;\n\nb. Support the Government in applying higher-level business or technical principles and methods to very difficult technical problems to arrive at automated engineering solutions;\n\nc. Provide technical expertise in formulating system design and\n\ndevelopment;\n\n9",
+    "metadata": {
+      "opportunity_name": "DHS_ICE_CALEA_T3ILU",
+      "source_document": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+      "contains_bullets": false,
+      "agent_tags": {
+        "expectation_identifier": 0.2,
+        "eval_criteria_identifier": 0.5,
+        "win_theme_mapper": {
+          "score": 0.2,
+          "label": "win theme"
+        }
+      }
+    }
+  },
+  {
+    "chunk_id": "65190fab",
+    "text": "Breadcrumb: Unknown > Page 0\n\n70CMSD25Q00000007 Attachment # 2 Statement of Work (SOW)\n\nd. Coordinate with CIST Program Managers at all levels to obtain\n\ninformation related to interface with systems at those levels to facilitate the acquisition and exchange of networked information;\n\ne. Participate in technical working groups to arrive at solutions to IT problems encountered and to provide knowledge and information concerning state-of-the-art techniques and right-practices regarding complex software and hardware implementations;\n\nf. Develop recommendations concerning major project ramifications and to\n\noffset adverse impacts;\n\ng. Provide support with the replication to the Continuity of Operations\n\nlocation;\n\nh. Support the Government in testing network engineering, directory\n\nservices, network management, and Information Assurance technology integration, testing, training, and development of capabilities prior to fielding on the operational networks;\n\ni. Maintain Windows Active Directory, Domain Name Server (DNS), Windows Server Update Services (WSUS), Transmission Control Protocol/Internet Protocol (TCP\\IP), and switch and router configuration; and\n\nj. Operate and maintain standard Internet TCP/IP, SSL and encryption.\n\n5.1.2 VIRTUAL ENVIRONMENT SUPPORT\n\nThe Contractor shall provide systems administration, with a primary focus of server virtualization. This includes:",
+    "metadata": {
+      "opportunity_name": "DHS_ICE_CALEA_T3ILU",
+      "source_document": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+      "contains_bullets": false,
+      "agent_tags": {
+        "expectation_identifier": 0.8,
+        "eval_criteria_identifier": 0.0,
+        "win_theme_mapper": {
+          "score": 0.3,
+          "label": "win theme"
+        }
+      }
+    }
+  },
+  {
+    "chunk_id": "7c0e4e03",
+    "text": "Breadcrumb: Unknown > Page 0\n\na. Utilize VMware (ESX 6.0+ VMware) in load/capacity analysis, trend monitoring, resource utilization, systems analysis, automated systems design, system development cycles and concepts, and information processing standards and methods to identify operational/processing problems, evaluate alternative approaches, adapt precedents and procedures, and plan and implement or recommend resolution;\n\nb. Plan and coordinate the installation, testing, operation, troubleshooting, and maintenance of hardware, operating systems, and applications software;\n\nc. Adapt and implement systems diagnostic and maintenance tools to ensure\n\nthe availability and functionality of server information systems;\n\nd. Administer the virtual environment administration for non-production lab\n\nenvironment;\n\ne. Ensure security patches are installed in accordance with configuration\n\nmanagement policies for all supported servers;\n\nf. Maintain documentation for all aspects of the virtual environment; g. Recommend improvements, evaluate alternate configurations, and develop concepts for modifications and future systems based on the capabilities and limitations of data processing equipment. This includes systems design methods.\n\nh. Familiarity with federal, network management and IA approaches and\n\n10\n\n70CMSD25Q00000007 Attachment # 2 Statement of Work (SOW)\n\nrequirements;\n\ni. Provide server virtualization services that support the organizational",
+    "metadata": {
+      "opportunity_name": "DHS_ICE_CALEA_T3ILU",
+      "source_document": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+      "contains_bullets": false,
+      "agent_tags": {
+        "expectation_identifier": 0.8,
+        "eval_criteria_identifier": 0.8,
+        "win_theme_mapper": {
+          "score": 0.3,
+          "label": "win theme"
+        }
+      }
+    }
+  },
+  {
+    "chunk_id": "64ed7a6e",
+    "text": "Breadcrumb: Unknown > Page 0\n\nneeds of the customer base through application of concepts, methods and practices for systems design, development, installation, operations; architecture, topology, protocol and remote access technology; and configuration management.\n\nj. Plan, design, develop, and integrate networked systems architectures k. Manage file access control permissions and coordinate file access with customer base. Assist the Government with defining the long-term requirements of the systems operation and administration;\n\nl. Ensure the integrity of centrally managed servers and data. To include\n\nidentifying areas requiring additional effort; execute action to remediate areas requiring additional effort; monitor and troubleshoot all versions of servers for availability; recover data in the event of hardware or software failure; and ensure customers receive current versions of supported software as they become available;\n\nm. Troubleshoot, analyze and resolve anomalies in the virtual environment; n. Maintain high level of reliability and availability of the CALEA directory\n\nservices, and infrastructure;\n\no. Provide server administration, upgrades, patches and customer support to\n\nextend e-mail services; and\n\np. Ensure security patches are installed in accordance with configuration management\n\npolicies for all servers assigned.\n\n5.1.3 ACTIVE DIRECTORY ORGANIZATIONAL UNIT ADMINISTRATION\n\nSUPPORT\n\nThe Contractor shall be responsible for the following:",
+    "metadata": {
+      "opportunity_name": "DHS_ICE_CALEA_T3ILU",
+      "source_document": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+      "contains_bullets": false,
+      "agent_tags": {
+        "expectation_identifier": 0.3,
+        "eval_criteria_identifier": 0.5,
+        "win_theme_mapper": {
+          "score": 0.3,
+          "label": "win theme"
+        }
+      }
+    }
+  },
+  {
+    "chunk_id": "07a0ddb0",
+    "text": "Breadcrumb: Unknown > Page 0\n\na. Plan and coordinate Organizational Unit administration, Group Policy Object (GPO) administration, and the installation, testing, operation, troubleshooting and maintenance of hardware, operating systems, and applications software;\n\nb. Recommendation for improvements, evaluating alternate configurations,\n\nand concepts for modifications and future systems;\n\nc. Maintain the Lightweight Directory Active Protocol (LDAP), Active Directory (AD), DNS, TCP\\IP, and server configuration; standard Internet protocols (TCP/IP); and SSL and encryption.\n\nd. Create user and compute accounts in AD; e. Add user accounts to appropriate AD security groups; f. Join computers to the domain and remove them as needed; and g. Coordinate with COT-TOC security to move accounts between\n\nOrganizational Units when needed.\n\n11\n\n70CMSD25Q00000007 Attachment # 2 Statement of Work (SOW)\n\n5.1.4 STORAGE ADMINISTRATION SUPPORT\n\nThe Contractor shall provide storage administration;\n\nh. Plan and coordinate the installation, testing, operation, troubleshooting and maintenance of hardware, operating systems, and applications software; i. Maintain reliability and availability of CALEA storage services and\n\ninfrastructure;\n\nj. Troubleshoot, analyze and resolve anomalies; identify, and correct server security vulnerabilities; schedule downtime to minimize user impact; k. Ensure security patches are installed in accordance with configuration\n\nmanagement policies for all servers;",
+    "metadata": {
+      "opportunity_name": "DHS_ICE_CALEA_T3ILU",
+      "source_document": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+      "contains_bullets": false,
+      "agent_tags": {
+        "expectation_identifier": 0.8,
+        "eval_criteria_identifier": 0.5,
+        "win_theme_mapper": {
+          "score": 0.3,
+          "label": "win theme"
+        }
+      }
+    }
+  },
+  {
+    "chunk_id": "c3bd9180",
+    "text": "Breadcrumb: Unknown > Page 0\n\nl. Maintain documentation for all servers and applications in SOP\n\nRepository;\n\nm. Maintain storage management fundamentals, and a multitude of enterprise\n\nclass SAN architectures; and\n\nn. Maintain Common Internet File System (CIFS), Network File System (NFS), Network Technology File System (NTFS), Active Directory domain account permissions, TCP\\IP, and server configuration.\n\n5.1.5 CALEA ARCHITECTURE SUPPORT\n\nThe Contractor shall maintain technical documentation to the Standard Operating Procedures (SOPs) Repository located on the CALEA network for the CALEA infrastructure to include technical drawings of the cable plant, wiring diagrams for patch panels, detailed network diagrams, and other required documentation to ensure network knowledge transfer. The Contractor shall maintain documentation necessary to obtain and install certificates as required by the Government leads.\n\n5.1.6 CONTINUITY OF OPERATIONS SITE SUPPORT\n\nThe Contractor shall support the backup systems and off-site storage as part of the Continuity of Operations Plan. The Contractor shall work with the Government to evaluate and improve current capabilities on an on-going basis. The Contractor shall provide technical support for any failure of the backup systems, critical components, and mission critical user support. The Contractor shall provide after-hours support on an on-call basis.\n\n5.2 FIELD OPERATIONS SUPPORT",
+    "metadata": {
+      "opportunity_name": "DHS_ICE_CALEA_T3ILU",
+      "source_document": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+      "contains_bullets": false,
+      "agent_tags": {
+        "expectation_identifier": 0.3,
+        "eval_criteria_identifier": 0.0,
+        "win_theme_mapper": {
+          "score": 0.2,
+          "label": "win theme"
+        }
+      }
+    }
+  },
+  {
+    "chunk_id": "9c99b860",
+    "text": "Breadcrumb: Unknown > Page 0\n\nThe Contractor shall provide the necessary personnel and technical resources to provide full- time support to a variety of operational technology systems at designated ICE Field Offices and other HSI facilities. The Contractor shall perform system installation, set-up, administration, maintenance, troubleshooting, and user support to customer supplied electronic surveillance collection systems to support the investigative (Title III and Pen Register) priorities of Criminal Investigations. This includes logging, tracking, and monitoring of the health of the CMP, the collection systems installed therein, local and remote workstations, and\n\n12\n\n70CMSD25Q00000007 Attachment # 2 Statement of Work (SOW)\n\ntheir LAN and WAN. In addition, the Contractor shall integrate and support associated feeder collection systems, as needed, to required external systems, services, and inputs to collect unprocessed evidence and intelligence data that will be used for further analysis in support of lawful investigations. This includes:\n\na)\n\nb) c) d)\n\ne) f) g) h) i)\n\nj)\n\nk)",
+    "metadata": {
+      "opportunity_name": "DHS_ICE_CALEA_T3ILU",
+      "source_document": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+      "contains_bullets": true,
+      "agent_tags": {
+        "expectation_identifier": 0.8,
+        "eval_criteria_identifier": 0.0,
+        "win_theme_mapper": {
+          "score": 0.2,
+          "label": "win theme"
+        }
+      }
+    }
+  },
+  {
+    "chunk_id": "53ae5b83",
+    "text": "Breadcrumb: Unknown > Page 0\n\nProvide day-to-day system and database administration of all aspects of the collection systems to include creating accounts in AD and the applications, changing passwords, unlocking user accounts, resetting user accounts, and setting user preferences; Adding user accounts to appropriate AD security groups; Join computers to the domain and remove them as needed; Coordinate with COT-TOC security to move account between OU when needed; Check logs for indication of application and hardware problems; Replace failed hard drives; Assist users with tasks such as connecting to printers; Install and update application software when automated processes fail; Use remote assistance to view a user\u2019s screen to assist with applications issues; Update hostname and IP addresses setting as needed to facilitate workstations moves; Assist COT-TOC personnel with installations, moves, and changes to equipment; Troubleshoot coppers/fiber cabling between the devices and re-terminate cables as needed;\n\nl)\n\nm) Maintain specific HSI collection systems. Perform periodic maintenance,\n\nn) o) p)\n\nq) r) s)\n\nt)\n\nu)\n\nv)\n\nw)",
+    "metadata": {
+      "opportunity_name": "DHS_ICE_CALEA_T3ILU",
+      "source_document": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+      "contains_bullets": false,
+      "agent_tags": {
+        "expectation_identifier": 0.8,
+        "eval_criteria_identifier": 0.0,
+        "win_theme_mapper": {
+          "score": 0.2,
+          "label": "win theme"
+        }
+      }
+    }
+  }
+]

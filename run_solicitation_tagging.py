@@ -1,4 +1,4 @@
-# run_solicitation_tagging.py (Stable + Context Ingestion, Cleaned)
+# run_solicitation_tagging.py (Stable + Context Ingestion, Cleaned + Fixed capture format)
 
 import os
 import json
@@ -30,6 +30,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("portfolio", help="Portfolio name")
 parser.add_argument("opportunity", help="Opportunity name")
 parser.add_argument("--force-capture", action="store_true", help="Force reprocessing of capture files")
+parser.add_argument("--test-limit", type=int, default=None, help="Limit number of chunks for testing")
 args = parser.parse_args()
 
 portfolio = args.portfolio
@@ -65,6 +66,9 @@ parsed_context = extract_toc_and_sections(full_text)
 save_parsed_context(parsed_context, parsed_context_path)
 section_map = {s["id"]: s for s in parsed_context["sections"] if "id" in s}
 chunks = enrich_chunks_with_breadcrumbs(chunks, section_map)
+if args.test_limit:
+    chunks = chunks[:args.test_limit]
+    print(f"⚡ Testing mode: truncated to {len(chunks)} chunks")
 
 # Step 4: Load or generate capture_parsed.json
 capture_path = get_capture_json_path(portfolio, opportunity)
@@ -80,9 +84,19 @@ else:
         capture_data = json.load(f)
     print("📖 Loaded structured capture data.")
 
+# Convert capture chunks to grouped format if needed
+if isinstance(capture_data, list):
+    grouped_capture_data = {
+        "pain_points": [c["text"] for c in capture_data if c["section"] == "pain_points"],
+        "win_themes": [c["text"] for c in capture_data if c["section"] == "win_themes"],
+        "differentiators": [c["text"] for c in capture_data if c["section"] == "discriminators"]
+    }
+else:
+    grouped_capture_data = capture_data
+
 # Step 5: Tag expectation and evaluation criteria
 print("\n🤖 Tagging: Expectation Identifier...")
-tagged_chunks = tag_expectation_identifier(chunks)
+tagged_chunks = tag_expectation_identifier(chunks, capture_context=grouped_capture_data)
 
 print("\n🔍 Tagging: Evaluation Criteria Identifier...")
 tagged_chunks = tag_eval_criteria_chunks(tagged_chunks)
@@ -102,9 +116,9 @@ with open(eval_criteria_path, "w", encoding="utf-8") as f:
 print(f"📂 Evaluation criteria saved to: {eval_criteria_path}")
 
 # Step 7: Run win theme mapper
-if capture_data:
+if grouped_capture_data:
     print("\n🏷️ Tagging: Win Theme Mapper with structured capture context...")
-    tagged_chunks = tag_win_theme_mapper(tagged_chunks, capture_data, criteria_text)
+    tagged_chunks = tag_win_theme_mapper(tagged_chunks, grouped_capture_data, criteria_text)
 else:
     print("⚠️ No capture data available — skipping win theme mapping.")
 
