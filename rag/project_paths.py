@@ -1,4 +1,4 @@
-# rag/paths.py
+# rag/project_paths.py
 
 def get_s3_prefix(portfolio: str, opportunity: str, subfolder: str = "solicitation") -> str:
     return f"{portfolio}/opportunities/{opportunity}/{subfolder}/"
@@ -23,3 +23,6 @@ def get_past_perf_folder(portfolio: str, opportunity: str) -> str:
 
 def get_capture_folder(portfolio: str, opportunity: str) -> str:
     return f"data/{portfolio}/opportunities/{opportunity}/solicitation/"
+
+def get_s3_past_perf_prefix(portfolio: str, opportunity: str) -> str:
+    return f"{portfolio}/opportunities/{opportunity}/past_performance/"
