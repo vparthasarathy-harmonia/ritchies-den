@@ -1,24 +1,4 @@
-"""
-run_solicitation_analysis.py — End-to-End Orchestrator for Phase 1: Solicitation Analysis
-
-Steps included:
-1. Download files from S3
-2. Chunk solicitation documents (excluding capture)
-3. Parse document structure (TOC, sections) and enrich chunks with breadcrumbs
-4. Parse capture documents and build grouped win themes, pain points, differentiators
-5. Run tagging agents:
-   - Expectation Identifier
-   - Evaluation Criteria Identifier
-   - Win Theme Mapper
-6. Extract past performance metadata
-7. Match past performance to solicitation chunks
-8. Section coverage analysis
-9. [Placeholder] Compliance checklist extraction
-10. [Placeholder] Risk identification
-11. [Placeholder] Tone & style profiling
-12. [Placeholder] Scoring rubric mapping
-13. [Placeholder] Keyword/theme frequency analysis
-"""
+# run_solicitation_analysis.py — End-to-End Orchestrator for Phase 1: Solicitation Analysis
 
 import os
 import json
@@ -26,7 +6,6 @@ import argparse
 from pathlib import Path
 from dotenv import load_dotenv
 
-# === Load utility modules ===
 from rag.project_paths import (
     get_s3_prefix, get_local_folder, get_eval_criteria_path,
     get_tagged_chunks_path, get_capture_json_path, get_past_perf_json_path
@@ -41,7 +20,7 @@ from rag.solicitation_tagging import (
 from rag.extract_capture_themes import parse_all_capture_files, save_capture_json
 from rag.preparse_solicitation import extract_toc_and_sections, save_parsed_context, enrich_chunks_with_breadcrumbs
 from rag.extract_past_performance import extract_project_metadata, infer_project_name, merge_projects
-from rag.match_past_performance import tag_chunks_with_pp
+from rag.pp_matcher import tag_chunks_with_pp
 
 load_dotenv(dotenv_path=".env.local")
 
@@ -87,20 +66,17 @@ local_folder = get_local_folder(portfolio, opportunity)
 s3_prefix = get_s3_prefix(portfolio, opportunity)
 bucket = os.getenv("S3_BUCKET")
 
-# === Step 1: Download files ===
 print(f"\n🗓️ Downloading S3 files for {portfolio}/{opportunity} ...")
 s3_keys = list_s3_files(bucket, prefix=s3_prefix)
 for key in s3_keys:
     filename = key.split("/")[-1]
     download_s3_file(bucket, key, os.path.join(local_folder, filename))
 
-# === Step 2: Chunk solicitation documents (excluding capture) ===
 print("\n📄 Loading and chunking solicitation documents...")
 file_paths = [p for p in list_local_files(local_folder) if not Path(p).name.lower().startswith("capture")]
 docs = load_documents(file_paths)
 chunks = chunk_documents(docs, opportunity_name=opportunity)
 
-# === Step 3: Parse document structure & enrich chunks ===
 print("\n📚 Extracting TOC/sections and enriching chunks with breadcrumbs...")
 full_text = "\n\n".join([doc.page_content for doc in docs])
 parsed_context = extract_toc_and_sections(full_text)
@@ -111,7 +87,6 @@ chunks = enrich_chunks_with_breadcrumbs(chunks, section_map)
 if args.test_limit:
     chunks = chunks[:args.test_limit]
 
-# === Step 4: Parse capture files ===
 print("\n🎯 Parsing capture files...")
 capture_path = get_capture_json_path(portfolio, opportunity)
 if args.force_capture or not os.path.exists(capture_path):
@@ -127,86 +102,85 @@ grouped_capture_data = {
     "differentiators": [c["text"] for c in capture_data if c["section"] == "discriminators"]
 } if isinstance(capture_data, list) else capture_data
 
-# === Step 5: Tag solicitation chunks ===
-print("\n🤖 Tagging expectation identifiers...")
-tagged_chunks = tag_expectation_identifier(chunks, capture_context=grouped_capture_data)
+from concurrent.futures import ThreadPoolExecutor
+from collections import defaultdict
 
-print("\n🔍 Tagging evaluation criteria...")
-tagged_chunks = tag_eval_criteria_chunks(tagged_chunks)
-
-criteria_chunks = [
+# Generate criteria_text early for parallel tagger use
+criteria_chunks_for_prompt = [
     {"chunk_id": c["chunk_id"], "text": c["text"]}
-    for c in tagged_chunks
-    if c["metadata"]["agent_tags"].get("eval_criteria_identifier", 0.0) >= 0.7
+    for c in chunks
+    if "evaluation" in c.get("text", "").lower()
 ]
-criteria_text = "\n\n".join([c["text"] for c in criteria_chunks])
-eval_criteria_path = get_eval_criteria_path(portfolio, opportunity)
-os.makedirs(os.path.dirname(eval_criteria_path), exist_ok=True)
-with open(eval_criteria_path, "w", encoding="utf-8") as f:
-    json.dump({"criteria_chunks": criteria_chunks}, f, indent=2)
+criteria_text = "\n\n".join([c["text"] for c in criteria_chunks_for_prompt])
 
-print("\n🏷️ Tagging win theme mapping...")
-tagged_chunks = tag_win_theme_mapper(tagged_chunks, grouped_capture_data, criteria_text)
+print("\n\n🤖 Running taggers in parallel...")
 
-# === Step 6: Extract past performance ===
 import time
+
+def run_all_taggers(chunks, capture_data, criteria_text, past_perf_projects):
+    print("\n⏱️ Starting parallel agent tagging...")
+    start_time = time.time()
+
+    with ThreadPoolExecutor(max_workers=4) as executor:
+        f1 = executor.submit(tag_expectation_identifier, chunks, capture_context=capture_data)
+        f2 = executor.submit(tag_eval_criteria_chunks, chunks)
+        f3 = executor.submit(tag_win_theme_mapper, chunks, capture_data, criteria_text)
+        f4 = executor.submit(tag_chunks_with_pp, chunks, past_perf_projects)
+
+        chunks1 = f1.result()
+        chunks2 = f2.result()
+        chunks3 = f3.result()
+        chunks4 = f4.result()
+
+    elapsed = round(time.time() - start_time, 2)
+    print(f"\n✅ All agents completed in {elapsed} seconds")
+    print(f"🔢 Expectation Chunks: {len(chunks1)} | Eval Criteria: {len(chunks2)} | Win Themes: {len(chunks3)} | PP Matches: {len(chunks4)}")
+
+    return chunks1, chunks2, chunks3, chunks4
 
 print("\n📂 Extracting past performance metadata...")
 pp_folder = f"data/{portfolio}/opportunities/{opportunity}/past_performance/"
 pp_output_path = get_past_perf_json_path(portfolio, opportunity)
-
-# Optional: download S3 files if needed
-pp_s3_prefix = get_s3_prefix(portfolio, opportunity, subfolder="past_performance")
-pp_keys = list_s3_files(bucket, prefix=pp_s3_prefix)
-for key in pp_keys:
-    filename = key.split("/")[-1]
-    dest_path = os.path.join(pp_folder, filename)
-    download_s3_file(bucket, key, dest_path)
-
 pp_docs = load_documents(list_local_files(pp_folder))
 projects_by_name = {}
-for i, doc in enumerate(pp_docs):
+for doc in pp_docs:
     fname = Path(doc.metadata.get("source", "unknown")).name
-    print(f"   🔄 [{i+1}/{len(pp_docs)}] Processing {fname}...")
-    try:
-        t0 = time.time()
-        metadata = extract_project_metadata(doc.page_content, fname)
-        t1 = time.time()
-        print(f"      ⏱️ Done in {round(t1 - t0, 2)}s")
-    except Exception as e:
-        print(f"      ❌ Error extracting metadata from {fname}: {e}")
-        continue
-
-    if not metadata:
-        print(f"      ⚠️ No metadata returned for {fname}")
-        continue
-
+    metadata = extract_project_metadata(doc.page_content, fname)
+    if not metadata: continue
     cid = metadata.get("contract_identification")
-    if not cid:
-        print(f"      ⚠️ No contract_identification in {fname}")
-        continue
-
+    if not cid: continue
     pname = infer_project_name(cid, fname)
     key = pname.strip().lower()
     projects_by_name[key] = merge_projects(projects_by_name.get(key, {}), metadata)
-
 with open(pp_output_path, "w", encoding="utf-8") as f:
     json.dump(list(projects_by_name.values()), f, indent=2)
 
-print("\n🔀 Matching past performance...")
+chunks1, chunks2, chunks3, chunks4 = run_all_taggers(
+    chunks,
+    grouped_capture_data,
+    criteria_text,
+    list(projects_by_name.values())
+)
+
+print("\n\n🔧 Merging agent outputs...")
+merged_by_id = defaultdict(dict)
+for chunk_list in [chunks1, chunks2, chunks3, chunks4]:
+    for chunk in chunk_list:
+        merged_by_id[chunk["chunk_id"]].update(chunk)
+
+tagged_chunks = list(merged_by_id.values())
+
+print("\n🔁 Matching past performance to solicitation chunks...")
 tagged_chunks = tag_chunks_with_pp(tagged_chunks, list(projects_by_name.values()))
 
-# === Step 8: Section coverage analysis ===
 print("\n📌 Step 8: Section coverage analysis...")
 perform_section_coverage_analysis(tagged_chunks, parsed_context, portfolio, opportunity)
 
-# === Save final tagged chunks ===
 tagged_output_path = get_tagged_chunks_path(portfolio, opportunity)
 os.makedirs(os.path.dirname(tagged_output_path), exist_ok=True)
 with open(tagged_output_path, "w", encoding="utf-8") as f:
     json.dump(tagged_chunks, f, indent=2)
 
-# === Step 9–13: Placeholder Enhancements ===
 print("\n📌 [TODO] Compliance checklist extraction – NOT IMPLEMENTED YET")
 print("\n📌 [TODO] Risk identification – NOT IMPLEMENTED YET")
 print("\n📌 [TODO] Tone & style profiling – NOT IMPLEMENTED YET")

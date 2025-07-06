@@ -3,7 +3,7 @@
 import json
 import os
 from pathlib import Path
-from rag.llm_client import invoke_claude
+from rag.llm_client_claude import invoke_claude
 
 
 def tag_chunks_with_pp(chunks, past_perf_projects):
@@ -14,10 +14,17 @@ def tag_chunks_with_pp(chunks, past_perf_projects):
         chunk_text = chunk["text"]
 
         for project in past_perf_projects:
-            project_name = project.get("contract_identification", {}).get("program_title") or \
-                           project.get("contract_identification", {}).get("contract_name") or \
-                           project.get("contract_identification", {}).get("name") or \
-                           "Unnamed Project"
+            # Safe extraction of project_name
+            cid = project.get("contract_identification")
+            project_name = None
+
+            if isinstance(cid, dict):
+                project_name = cid.get("program_title") or \
+                               cid.get("contract_name") or \
+                               cid.get("project_name")
+
+            if not project_name:
+                project_name = project.get("sources", ["Unnamed Project"])[0]
 
             prompt = f"""
 You are a past performance relevance assessor.
@@ -49,11 +56,11 @@ Return only a JSON object.
                         "matched_fields": result.get("matched_fields", [])
                     })
             except Exception as e:
-                print(f"⚠️ Skipping project due to error: {e}")
+                print(f"⚠️ Skipping project '{project_name}' due to error: {e}")
                 continue
 
         if relevant_projects:
-            chunk["metadata"].setdefault("agent_tags", {})["pp_matcher"] = relevant_projects
+            chunk.setdefault("metadata", {}).setdefault("agent_tags", {})["pp_matcher"] = relevant_projects
 
         tagged_chunks.append(chunk)
 
