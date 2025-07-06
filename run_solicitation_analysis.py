@@ -24,6 +24,9 @@ from rag.pp_matcher import tag_chunks_with_pp
 
 load_dotenv(dotenv_path=".env.local")
 
+import time
+start_time = time.time()
+
 def perform_section_coverage_analysis(tagged_chunks, parsed_context, portfolio, opportunity):
     print("\n🔍 Analyzing section coverage gaps...")
     covered_section_ids = set()
@@ -58,6 +61,7 @@ parser.add_argument("portfolio")
 parser.add_argument("opportunity")
 parser.add_argument("--force-capture", action="store_true")
 parser.add_argument("--test-limit", type=int, default=None)
+parser.add_argument("--parallel", action="store_true", help="Run agents in parallel (default is sequential)")
 args = parser.parse_args()
 
 portfolio = args.portfolio
@@ -117,26 +121,52 @@ print("\n\n🤖 Running taggers in parallel...")
 
 import time
 
-def run_all_taggers(chunks, capture_data, criteria_text, past_perf_projects):
+from rag.compliance_tagger import tag_compliance_chunks
+
+def run_all_taggers(chunks, capture_data, criteria_text, past_perf_projects, output_dir):
     print("\n⏱️ Starting parallel agent tagging...")
     start_time = time.time()
+    timings = {}
 
-    with ThreadPoolExecutor(max_workers=4) as executor:
-        f1 = executor.submit(tag_expectation_identifier, chunks, capture_context=capture_data)
-        f2 = executor.submit(tag_eval_criteria_chunks, chunks)
-        f3 = executor.submit(tag_win_theme_mapper, chunks, capture_data, criteria_text)
-        f4 = executor.submit(tag_chunks_with_pp, chunks, past_perf_projects)
+    with ThreadPoolExecutor(max_workers=5) as executor:
+        def timed(name, fn):
+            t0 = time.time()
+            result = fn()
+            timings[name] = round(time.time() - t0, 2)
+# Introduce alternating delay between agents to ease throughput
+            time.sleep(0.5 if len(timings) % 2 == 0 else 1.0)
+            return result
+
+        f1 = executor.submit(lambda: timed("expectation_identifier", lambda: tag_expectation_identifier(chunks, capture_context=capture_data)))
+        f2 = executor.submit(lambda: timed("eval_criteria_identifier", lambda: tag_eval_criteria_chunks(chunks)))
+        f3 = executor.submit(lambda: timed("win_theme_mapper", lambda: tag_win_theme_mapper(chunks, capture_data, criteria_text)))
+        f4 = executor.submit(lambda: timed("pp_matcher", lambda: tag_chunks_with_pp(chunks, past_perf_projects)))
+        f5 = executor.submit(lambda: timed("compliance_tagger", lambda: tag_compliance_chunks(chunks)))
 
         chunks1 = f1.result()
         chunks2 = f2.result()
         chunks3 = f3.result()
         chunks4 = f4.result()
+        compliance_response, compliance_performance = f5.result()
 
     elapsed = round(time.time() - start_time, 2)
     print(f"\n✅ All agents completed in {elapsed} seconds")
     print(f"🔢 Expectation Chunks: {len(chunks1)} | Eval Criteria: {len(chunks2)} | Win Themes: {len(chunks3)} | PP Matches: {len(chunks4)}")
+    print(f"📋 Compliance (response): {len(compliance_response)} | Compliance (performance): {len(compliance_performance)}")
+    print(f"\n🕒 Agent runtimes:")
+    for name, sec in sorted(timings.items(), key=lambda x: x[1], reverse=True):
+        print(f"  - {name}: {sec} seconds")
 
-    return chunks1, chunks2, chunks3, chunks4
+    # Save compliance outputs
+    response_path = os.path.join(output_dir, "compliance_response.json")
+    performance_path = os.path.join(output_dir, "compliance_performance.json")
+    os.makedirs(output_dir, exist_ok=True)
+    with open(response_path, "w", encoding="utf-8") as f:
+        json.dump(compliance_response, f, indent=2)
+    with open(performance_path, "w", encoding="utf-8") as f:
+        json.dump(compliance_performance, f, indent=2)
+
+    return chunks1, chunks2, chunks3, chunks4, timings
 
 print("\n📂 Extracting past performance metadata...")
 pp_folder = f"data/{portfolio}/opportunities/{opportunity}/past_performance/"
@@ -155,12 +185,45 @@ for doc in pp_docs:
 with open(pp_output_path, "w", encoding="utf-8") as f:
     json.dump(list(projects_by_name.values()), f, indent=2)
 
-chunks1, chunks2, chunks3, chunks4 = run_all_taggers(
-    chunks,
-    grouped_capture_data,
-    criteria_text,
-    list(projects_by_name.values())
-)
+    if args.parallel:
+        print("\n🚀 Running agents in parallel...")
+        chunks1, chunks2, chunks3, chunks4, agent_timings = run_all_taggers(
+            chunks,
+            grouped_capture_data,
+            criteria_text,
+            list(projects_by_name.values()),
+            output_dir=f"data/{portfolio}/opportunities/{opportunity}"          
+            )
+    else:
+        print("\n🚶 Running agents sequentially...")
+        agent_timings = {}
+        t0 = time.time()
+        chunks1 = tag_expectation_identifier(chunks, capture_context=grouped_capture_data)
+        agent_timings["expectation_identifier"] = round(time.time() - t0, 2)
+
+        t0 = time.time()
+        chunks2 = tag_eval_criteria_chunks(chunks)
+        agent_timings["eval_criteria_identifier"] = round(time.time() - t0, 2)
+
+        t0 = time.time()
+        chunks3 = tag_win_theme_mapper(chunks, grouped_capture_data, criteria_text)
+        agent_timings["win_theme_mapper"] = round(time.time() - t0, 2)
+
+        t0 = time.time()
+        chunks4 = tag_chunks_with_pp(chunks, list(projects_by_name.values()))
+        agent_timings["pp_matcher"] = round(time.time() - t0, 2)
+
+        t0 = time.time()
+        compliance_response, compliance_performance = tag_compliance_chunks(chunks)
+        agent_timings["compliance_tagger"] = round(time.time() - t0, 2)
+
+    # Save compliance
+    output_dir = f"data/{portfolio}/opportunities/{opportunity}"
+    with open(os.path.join(output_dir, "compliance_response.json"), "w") as f:
+        json.dump(compliance_response, f, indent=2)
+    with open(os.path.join(output_dir, "compliance_performance.json"), "w") as f:
+        json.dump(compliance_performance, f, indent=2)
+
 
 print("\n\n🔧 Merging agent outputs...")
 merged_by_id = defaultdict(dict)
@@ -187,4 +250,11 @@ print("\n📌 [TODO] Tone & style profiling – NOT IMPLEMENTED YET")
 print("\n📌 [TODO] Scoring rubric mapping – NOT IMPLEMENTED YET")
 print("\n📌 [TODO] Keyword/theme frequency analysis – NOT IMPLEMENTED YET")
 
-print("\n📅 Phase 1: Solicitation Analysis complete.")
+
+print("\n⏱️ Agent Timing Summary:")
+for name, seconds in sorted(agent_timings.items(), key=lambda x: x[1], reverse=True):
+    print(f"  - {name}: {seconds} seconds")
+
+end_time = time.time()
+total_time = round(end_time - start_time, 2)
+print(f"\n📅 Phase 1: Solicitation Analysis complete in {total_time} seconds.")
