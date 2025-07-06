@@ -26,3 +26,6 @@ def get_capture_folder(portfolio: str, opportunity: str) -> str:
 
 def get_s3_past_perf_prefix(portfolio: str, opportunity: str) -> str:
     return f"{portfolio}/opportunities/{opportunity}/past_performance/"
+
+def get_portfolio_past_perf_folder(portfolio: str, opportunity: str) -> str:
+    return f"data/{portfolio}/opportunities/{opportunity}/past_performance/"

@@ -1,8 +1,3 @@
 {
-  "criteria_chunks": [
-    {
-      "chunk_id": "7c0e4e03",
-      "text": "Breadcrumb: Unknown > Page 0\n\na. Utilize VMware (ESX 6.0+ VMware) in load/capacity analysis, trend monitoring, resource utilization, systems analysis, automated systems design, system development cycles and concepts, and information processing standards and methods to identify operational/processing problems, evaluate alternative approaches, adapt precedents and procedures, and plan and implement or recommend resolution;\n\nb. Plan and coordinate the installation, testing, operation, troubleshooting, and maintenance of hardware, operating systems, and applications software;\n\nc. Adapt and implement systems diagnostic and maintenance tools to ensure\n\nthe availability and functionality of server information systems;\n\nd. Administer the virtual environment administration for non-production lab\n\nenvironment;\n\ne. Ensure security patches are installed in accordance with configuration\n\nmanagement policies for all supported servers;\n\nf. Maintain documentation for all aspects of the virtual environment; g. Recommend improvements, evaluate alternate configurations, and develop concepts for modifications and future systems based on the capabilities and limitations of data processing equipment. This includes systems design methods.\n\nh. Familiarity with federal, network management and IA approaches and\n\n10\n\n70CMSD25Q00000007 Attachment # 2 Statement of Work (SOW)\n\nrequirements;\n\ni. Provide server virtualization services that support the organizational"
-    }
-  ]
+  "criteria_chunks": []
 }

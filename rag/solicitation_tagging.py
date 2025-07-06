@@ -46,7 +46,12 @@ def tag_expectation_identifier(chunks, capture_context=None):
         try:
             response = invoke_claude(prompt)
             score_line = next((l for l in response.splitlines() if "score" in l.lower()), None)
+            #score = float(score_line.split(":")[-1].strip()) if score_line else 0.0
             score = float(score_line.split(":")[-1].strip()) if score_line else 0.0
+            short_text = chunk['text'][:80].strip().replace('\\n', ' ').replace('\"', '')
+            print(f"🔍 [expectation_identifier] {chunk['chunk_id']} | Score: {score} | Text: {short_text}...")
+
+
         except Exception:
             score = 0.0
 

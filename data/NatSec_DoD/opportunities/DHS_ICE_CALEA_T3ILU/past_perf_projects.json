@@ -1,152 +1,217 @@
 [
   {
-    "contract_identification": "DHS ICE ERO - FC3_Vol2-RCHP-REP3 ICE ESO&M Verification_FTE for DOS EVOLVE (February 2023)",
-    "client_and_agency": null,
-    "scope_and_work_type": null,
-    "period_of_performance": null,
-    "financials_and_labor": null,
     "sources": [
-      "DHS ICE ERO - FC3_Vol2-RCHP-REP3 ICE ESO&M Verification_FTE for DOS EVOLVE (February 2023).docx"
+      "DHS ICE ERO for Adapts_03-2025.docx"
+    ],
+    "period_of_performance": "9/15/2023-9/14/2028",
+    "contract_identification": {
+      "contract_number": "19AQMM23A0178",
+      "task_delivery_orders": [
+        "19AQMM23F7556",
+        "19AQMM23F7557",
+        "19AQMM24F7135"
+      ]
+    },
+    "client_and_agency": "Department of State (DOS)",
+    "scope_and_work_type": [
+      "training and transition support",
+      "application modernization",
+      "modernizing and sustaining enterprise applications",
+      "supporting secure cloud computing environments",
+      "IT service delivery improvement",
+      "implementing governance-driven IT service management",
+      "enhancing cybersecurity",
+      "interoperability optimization",
+      "operations and maintenance (O&M)",
+      "business analysis and senior user support",
+      "software engineering and system integration",
+      "cloud and infrastructure support"
+    ],
+    "financials_and_labor": {
+      "dollar_value": 26600597.0,
+      "obligated_value": 9528610.69
+    },
+    "teaming_and_delivery": [
+      "structured governance",
+      "adaptive planning",
+      "adherence to federal IT governance guidelines",
+      "real-time KPI tracking",
+      "project management leadership",
+      "project management support",
+      "compliance-driven oversight",
+      "Agile methodologies",
+      "prioritization of functional support",
+      "facilitation of project activities (training, testing, go-live, post-go-live support)",
+      "automation-driven approach",
+      "delivery of scheduled and ad-hoc reports",
+      "close collaboration with stakeholders",
+      "management and configuration control of project documentation and source code",
+      "Agile methodologies (Scrum, Kanban, SAFe)",
+      "data-driven decision-making",
+      "evolutionary development",
+      "coordination with Federal functional lead",
+      "governance and compliance demonstration",
+      "rapid and flexible response to change",
+      "organization and participation in required meetings",
+      "PMBOK-based collaboration",
+      "Agile execution",
+      "Agile and IT Core support teams",
+      "project status updates",
+      "seamless transition and operational continuity",
+      "time-boxed delivery",
+      "risk management"
+    ],
+    "performance_and_quality": [
+      "continuous evaluation of service delivery performance",
+      "CMMI DEV ML3",
+      "Agile",
+      "reduced ticket backlog by 85%",
+      "ISO 9001:2015",
+      "improved response time from weeks to 12 hours",
+      "PMBOK",
+      "secure, scalable, and mission-driven IT modernization",
+      "measurable performance improvements",
+      "ISO 27001:2022",
+      "on-time project completion",
+      "high operational standards",
+      "thorough and complete plans with verification checklists",
+      "ISO 20000:2018",
+      "compliance with evolving security mandates",
+      "increased first-call resolution rate from 25% to 75%",
+      "alignment with agency objectives and compliance mandates",
+      "within-budget project completion"
+    ],
+    "compliance_and_standards": [
+      "Directive 4300A",
+      "FISMA",
+      "FedRAMP",
+      "security reviews",
+      "adherence to compliance requirements",
+      "Federal Information Security Management Act (FISMA)",
+      "ISO",
+      "Section 508",
+      "CMMI",
+      "Office of Inspector General (OIG) management alerts",
+      "adherence to federal standards",
+      "adherence to industry's best practices"
+    ],
+    "contract_strategy": "Our proven program and project management adheres to the Project Management Body of Knowledge (PMBOK) and Agile methodologies with the execution of Capabilities Maturity Model Integration (CMMI) DEV Maturity Level 3 (ML3) for process standardization, International Organization for Standardization (ISO) 9001:2015 for Quality Management, ISO 20000:2018 for Service Delivery, and ISO 27001:2022 for Security Management."
+  },
+  {
+    "sources": [
+      "DHS ICE ERO for HRSA 04-2024.docx"
+    ],
+    "period_of_performance": "02/01/2022-01/31/2027",
+    "contract_identification": {
+      "contract_name": "Enforcement Systems Operations and Maintenance Support Services (ESOMSS)",
+      "contract_number": "W52P1J18DA062 / 70CTD021FR0000226",
+      "contract_type": "FFP & T&M",
+      "date_of_award": "09/24/2021"
+    },
+    "client_and_agency": {
+      "client": "Department of Homeland Security (DHS) Immigration and Customs Enforcement (ICE)",
+      "point_of_contact": {
+        "name": "Kapilesh \"Bobby\" Jerath",
+        "phone": "202-732-7336",
+        "email": "Kapilesh.Jerath@ice.dhs.gov"
+      },
+      "task_areas_covered": [
+        1,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "scope_and_work_type": [
+      "Data Management Plan",
+      "Transition",
+      "Data analytics and reporting",
+      "Data Asset Catalog",
+      "Ensuring ICE ERO systems maintain privacy of PII data",
+      "Data fixes",
+      "Use of open-source software and technologies",
+      "Application development using Java and Agile processes",
+      "Oracle and PostgresSQL Database management",
+      "Interface artifacts",
+      "Database management",
+      "Data Model",
+      "Providing DHS support for PTA, PIA, SORN, and other privacy compliance documentation",
+      "Security Services",
+      "Account creation/database access",
+      "Database support",
+      "Tier 2/3 support",
+      "Forms and Correspondence Systems for Users",
+      "Patching",
+      "Database Security Scans",
+      "Agile DME and O&M support of 25 user-centric, mission-critical enterprise ICE Enforcement Systems running more than 40 applications operated within AWS GovCloud East and West"
+    ],
+    "financials_and_labor": {
+      "total_contract_value": 75335658.63
+    },
+    "teaming_and_delivery": [
+      "Supporting Java, Oracle, AWS architecture, and other technologies",
+      "Agile",
+      "DevSecOps",
+      "5 Agile DevSecOps teams with 13 FTEs per team",
+      "CI/CD automation",
+      "Staffed over 100 personnel within 60 days of award"
+    ],
+    "performance_and_quality": [
+      "Implemented digital workflow for forms and correspondence",
+      "39,000 Jira tickets completed",
+      "Automated processes to improve data quality and outcomes",
+      "53,000 story points completed",
+      "98.56% staffing level",
+      "44 outages supported",
+      "412 releases completed",
+      "Complying with FAR and HSAR privacy regulations",
+      "Following ICE's System Lifecycle Management (SLM) process, ICE SLM Handbook, ICE Agile/DevOps Playbook, and ICE Web Standards and Guidelines",
+      "Provided real-time program metrics dashboard",
+      "Performing security control design and annual assessment, assessing DHS 4300A Sensitive Systems policies and requirements, and NIST 800-53 controls"
+    ],
+    "compliance_and_standards": [
+      "FAR 52.224-3 Privacy Training (JAN 2017)",
+      "Ensured FDCC/USGCB compliance for software installations",
+      "FAR 52.224-2 Privacy Act (APR 1984)",
+      "Maintained security posture and compliance with DHS 4300A, NIST 800-53",
+      "DHS Systems Engineering Life Cycle (SELC)",
+      "FAR 52.224-1 Privacy Act Notification (APR 1984)"
     ]
   },
   {
-    "contract_identification": "DHS ICE ERO - J-20 REP_FC3_Vol2-RCHP-REP3 ICE ESO&M_Word Master for DOS EVOLVE (February 2023)",
-    "client_and_agency": "Department of Homeland Security (DHS), Immigration and Customs Enforcement (ICE)",
-    "scope_and_work_type": "The document appears to be a proposal or contract related to detention and removal operations support services for ICE.",
-    "period_of_performance": "The period of performance is not explicitly stated in the provided text.",
-    "financials_and_labor": "No specific financial or labor details are provided in the given text.",
     "sources": [
-      "DHS ICE ERO - J-20 REP_FC3_Vol2-RCHP-REP3 ICE ESO&M_Word Master for DOS EVOLVE (February 2023).docx"
-    ]
-  },
-  {
-    "contract_identification": "DHS ICE ERO for DHS OPO ADaPTS 2.0 BPA (March 2025)",
-    "client_and_agency": "Department of Homeland Security (DHS), Immigration and Customs Enforcement (ICE), Enforcement and Removal Operations (ERO) for DHS Office of Procurement Operations (OPO)",
-    "scope_and_work_type": "The scope and type of work is not clearly specified in the given text.",
-    "period_of_performance": "The period of performance is not provided in the given text.",
-    "financials_and_labor": "No financial or labor information is provided in the given text.",
-    "sources": [
-      "DHS ICE ERO for DHS OPO ADaPTS 2.0 BPA (March 2025).docx"
-    ]
-  },
-  {
-    "contract_identification": "DHS ICE ERO for DLA JETS 2.0 (June 2023)",
-    "client_and_agency": "Department of Homeland Security (DHS), Immigration and Customs Enforcement (ICE), Enforcement and Removal Operations (ERO)",
-    "scope_and_work_type": "Transportation services for detainees and inmates",
-    "period_of_performance": "Not specified",
-    "financials_and_labor": "Not specified",
-    "sources": [
-      "DHS ICE ERO for DLA JETS 2.0 (June 2023).docx"
-    ]
-  },
-  {
-    "contract_identification": "DHS ICE ERO for USCIS BIMS (IBSS Prime - Ekagra)",
-    "client_and_agency": null,
-    "scope_and_work_type": null,
-    "period_of_performance": null,
-    "financials_and_labor": null,
-    "sources": [
-      "DHS ICE ERO for USCIS BIMS (IBSS Prime - Ekagra).docx"
-    ]
-  },
-  {
-    "contract_identification": "DHS ICE ERO for VA TAC T4NG (April 2023)",
-    "client_and_agency": null,
-    "scope_and_work_type": null,
-    "period_of_performance": null,
-    "financials_and_labor": null,
-    "sources": [
-      "DHS ICE ERO for VA TAC T4NG (April 2023).docx"
-    ]
-  },
-  {
-    "contract_identification": "DHS ICE Enforcement Systems Operations and Maintenance for ICE SEVIS O&M Support Services Phase I (July 2024)",
-    "client_and_agency": "Department of Homeland Security (DHS), Immigration and Customs Enforcement (ICE)",
-    "scope_and_work_type": "Operations and maintenance support services for the Student and Exchange Visitor Information System (SEVIS)",
-    "period_of_performance": "July 2024 (based on the file name)",
-    "financials_and_labor": "No specific financial or labor details provided in the given text.",
-    "sources": [
-      "DHS ICE Enforcement Systems Operations and Maintenance for ICE SEVIS O&M Support Services Phase I (July 2024).docx"
-    ]
-  },
-  {
-    "contract_identification": "DHS ICE REO for DHS USCIS EYAS Phase 1 (February 2024)",
-    "client_and_agency": null,
-    "scope_and_work_type": null,
-    "period_of_performance": null,
-    "financials_and_labor": null,
-    "sources": [
-      "DHS ICE REO for DHS USCIS EYAS Phase 1 (February 2024).docx"
-    ]
-  },
-  {
-    "contract_identification": "DHS ICE for DHS OPO HSIN Modernization (March 2024)",
-    "client_and_agency": "Department of Homeland Security (DHS), Immigration and Customs Enforcement (ICE) for DHS Office of Procurement Operations (OPO)",
-    "scope_and_work_type": "HSIN Modernization",
-    "period_of_performance": null,
-    "financials_and_labor": null,
-    "sources": [
-      "DHS ICE for DHS OPO HSIN Modernization (March 2024).docx"
-    ]
-  },
-  {
-    "contract_identification": "DHS ICE for HHS HRSA BHW NPDB O&M (April 2024)",
-    "client_and_agency": "Department of Homeland Security (DHS) Immigration and Customs Enforcement (ICE) for Department of Health and Human Services (HHS) Health Resources and Services Administration (HRSA) Bureau of Health Workforce (BHW) National Practitioner Data Bank (NPDB)",
-    "scope_and_work_type": "Operations and Maintenance (O&M)",
-    "period_of_performance": "April 2024",
-    "financials_and_labor": null,
-    "sources": [
-      "DHS ICE for HHS HRSA BHW NPDB O&M (April 2024).docx"
-    ]
-  },
-  {
-    "contract_identification": "DOS IDEA for DHS OPO ADaPTS 2.0 BPA (March 2025)",
-    "client_and_agency": null,
-    "scope_and_work_type": null,
-    "period_of_performance": null,
-    "financials_and_labor": null,
-    "sources": [
-      "DOS IDEA for DHS OPO ADaPTS 2.0 BPA (March 2025).docx"
-    ]
-  },
-  {
-    "contract_identification": "DOS INR IDEA for DOJ DEA Information Technology Support Services (September 2024)",
-    "client_and_agency": "Department of State (DOS) Bureau of Intelligence and Research (INR) Indefinite Delivery/Indefinite Quantity (IDIQ) contract for the Department of Justice (DOJ) Drug Enforcement Administration (DEA)",
-    "scope_and_work_type": "Information technology support services",
-    "period_of_performance": "Not specified",
-    "financials_and_labor": "Not specified",
-    "sources": [
-      "DOS INR IDEA for DOJ DEA Information Technology Support Services (September 2024).docx"
-    ]
-  },
-  {
-    "contract_identification": "DOS INR IDEA for DOS IT Support Services (May 2024)",
-    "client_and_agency": "Department of State (DOS), Bureau of Intelligence and Research (INR)",
-    "scope_and_work_type": "IT support services",
-    "period_of_performance": "May 2024 (anticipated award date)",
-    "financials_and_labor": null,
-    "sources": [
-      "DOS INR IDEA for DOS IT Support Services (May 2024).docx"
-    ]
-  },
-  {
-    "contract_identification": "DOS INR IDEA for EPA MRITSS (June 2024)",
-    "client_and_agency": null,
-    "scope_and_work_type": null,
-    "period_of_performance": null,
-    "financials_and_labor": null,
-    "sources": [
-      "DOS INR IDEA for EPA MRITSS (June 2024).docx"
-    ]
-  },
-  {
-    "contract_identification": "DOS INR IDEA for USPS OCIO Support Services (September 2024)",
-    "client_and_agency": null,
-    "scope_and_work_type": null,
-    "period_of_performance": null,
-    "financials_and_labor": null,
-    "sources": [
-      "DOS INR IDEA for USPS OCIO Support Services (September 2024).docx"
-    ]
+      "DOS INR Intelligence Development and Enterprise Applications 09-2024.docx"
+    ],
+    "period_of_performance": "9/15/2023-9/14/2028",
+    "contract_identification": {
+      "contract_number": "19AQMM23A0178",
+      "task_order_numbers": [
+        "19AQMM23F7556",
+        "19AQMM23F7557",
+        "19AQMM24F7135"
+      ],
+      "contract_type": "IDIQ Time & Materials (T&M)",
+      "total_contract_value": "$26,600,597.00",
+      "total_task_order_value": "$21,343,811.41"
+    },
+    "client_and_agency": {
+      "client_name": "Department of State",
+      "client_address": "2201 C Street NW | Washington, DC 20520",
+      "client_phone": "(202) 647-1080",
+      "project_officer_name": "Christian Hall",
+      "project_officer_phone": "(202) 647-8297",
+      "contracting_officer_name": "Todd Paynter",
+      "contracting_officer_phone": "(202) 486-5958"
+    },
+    "scope_and_work_type": "Harmonia provides the DOS INR and other Department intelligence stakeholders with a comprehensive IT solution design and development. We identify, analyze, integrate, deploy, and maintain technical capabilities essential for establishing the full suite of enterprise applications to meet the current and evolving INR diplomatic and intelligence mission needs. Our services encompass agile software development, program risk and requirements management, and IT operations services to operate and maintain both existing and newly integrated technology solutions.",
+    "financials_and_labor": [],
+    "teaming_and_delivery": [],
+    "performance_and_quality": [],
+    "compliance_and_standards": [],
+    "contract_strategy": []
   }
 ]

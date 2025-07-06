@@ -1,8 +1,9 @@
-# ritchies-den/rag/llm_client.py
+# rag/llm_client_claude.py
 
 import os
 import json
 import boto3
+import botocore
 from dotenv import load_dotenv
 
 load_dotenv(dotenv_path=".env.local")
@@ -11,7 +12,8 @@ bedrock_runtime = boto3.client(
     service_name="bedrock-runtime",
     region_name=os.getenv("BEDROCK_REGION"),
     aws_access_key_id=os.getenv("BEDROCK_ACCESS_KEY_ID"),
-    aws_secret_access_key=os.getenv("BEDROCK_SECRET_ACCESS_KEY")
+    aws_secret_access_key=os.getenv("BEDROCK_SECRET_ACCESS_KEY"),
+    config=botocore.client.Config(connect_timeout=10, read_timeout=60)
 )
 
 MODEL_ID = "anthropic.claude-3-sonnet-20240229-v1:0"
