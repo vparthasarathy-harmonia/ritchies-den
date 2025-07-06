@@ -103,9 +103,11 @@
               "Security Services",
               "Providing DHS support for PTA, PIA, SORN, and other privacy compliance documentation",
               "Database management",
+              "Data Management Plan",
               "Ensuring ICE ERO systems maintain privacy of PII data",
               "Oracle and PostgresSQL Database management",
               "Application development using Java and Agile processes",
+              "Account creation/database access",
               "Database Security Scans",
               "Patching",
               "Transition",
@@ -114,19 +116,7 @@
               "Tier 2/3 support",
               "Forms and Correspondence Systems for Users",
               "Data Asset Catalog",
-              "Agile DME and O&M support of 25 user-centric, mission-critical enterprise ICE Enforcement Systems running more than 40 applications operated within AWS GovCloud East and West",
-              "DevSecOps",
-              "Agile",
-              "Supporting multiple value streams and business units",
-              "CI/CD automation",
-              "Automated processes to improve data quality and outcomes",
-              "Provided real-time program metrics dashboard",
-              "Performing security control design and annual assessment, assessing DHS 4300A Sensitive Systems policies and requirements, and NIST 800-53 controls",
-              "Complying with FAR and HSAR privacy regulations",
-              "Following ICE's System Lifecycle Management (SLM) process, ICE SLM Handbook, ICE Agile/DevOps Playbook, and ICE Web Standards and Guidelines",
-              "Implemented digital workflow for forms and correspondence",
-              "DHS Systems Engineering Life Cycle (SELC)",
-              "FAR 52.224-1 Privacy Act Treatment of System of Records"
+              "Agile DME and O&M support of 25 user-centric, mission-critical enterprise ICE Enforcement Systems running more than 40 applications operated within AWS GovCloud East and West"
             ]
           }
         ]
@@ -219,7 +209,21 @@
               "delivery of scheduled and ad-hoc reports",
               "coordination with Federal functional lead",
               "project status updates",
-              "close collaboration with stakeholders"
+              "close collaboration with stakeholders",
+              "reduced ticket backlog by 85%",
+              "continuous evaluation of service delivery performance",
+              "secure, scalable, and mission-driven IT modernization",
+              "Agile",
+              "improved response time from weeks to 12 hours",
+              "CMMI DEV ML3",
+              "measurable performance improvements",
+              "thorough and complete plans with verification checklists",
+              "ISO 9001:2015",
+              "on-time project completion",
+              "increased first-call resolution rate from 25% to 75%",
+              "compliance with evolving security mandates",
+              "ISO 20000:2018",
+              "within-budget project completion"
             ]
           },
           {
@@ -439,8 +443,7 @@
               "secure, scalable, and mission-driven IT modernization",
               "enhancing cybersecurity",
               "governance and compliance demonstration",
-              "adherence to federal IT governance guidelines",
-              "compliance-driven oversight"
+              "adherence to federal IT governance guidelines"
             ]
           },
           {
@@ -480,7 +483,8 @@
               "compliance with evolving security mandates",
               "adherence to federal IT governance guidelines",
               "governance and compliance demonstration",
-              "compliance-driven oversight"
+              "compliance-driven oversight",
+              "secure, scalable, and mission-driven IT modernization"
             ]
           },
           {
@@ -535,24 +539,12 @@
               "modernizing and sustaining enterprise applications",
               "cloud and infrastructure support",
               "enhancing cybersecurity",
-              "implementing governance-driven IT service management",
-              "Agile execution",
               "governance and compliance demonstration",
               "adherence to federal IT governance guidelines",
               "risk management",
               "structured governance",
-              "Agile methodologies",
-              "evolutionary development",
-              "Agile methodologies (Scrum, Kanban, SAFe)",
-              "automation-driven approach",
-              "rapid and flexible response to change",
-              "project management support",
-              "coordination with Federal functional lead",
-              "project status updates",
-              "close collaboration with stakeholders",
+              "compliance-driven oversight",
               "secure, scalable, and mission-driven IT modernization",
-              "Agile",
-              "measurable performance improvements",
               "compliance with evolving security mandates"
             ]
           },
@@ -565,11 +557,11 @@
               "Application architecture and browser compatibility requirements",
               "Use of open-source software and technologies",
               "Database support and management (Oracle, PostgreSQL)",
-              "Security services and compliance with DHS policies (4300A, NIST 800-53)",
+              "Security services and compliance with DHS 4300A, NIST 800-53",
               "Privacy compliance (PTA, PIA, SORN)",
               "Agile development processes",
               "DevSecOps and CI/CD automation",
-              "Compliance with FAR, HSAR, and DHS SELC"
+              "Compliance with FAR, HSAR, ICE SLM process, and other standards"
             ]
           },
           {
@@ -609,11 +601,13 @@
             "matched_fields": [
               "operations and maintenance (O&M)",
               "enhancing cybersecurity",
+              "governance and compliance demonstration",
+              "adherence to federal IT governance guidelines",
+              "risk management",
+              "structured governance",
               "compliance-driven oversight",
-              "project management support",
-              "coordination with Federal functional lead",
-              "project status updates",
-              "close collaboration with stakeholders"
+              "secure, scalable, and mission-driven IT modernization",
+              "compliance with evolving security mandates"
             ]
           },
           {
@@ -637,7 +631,7 @@
               "Tier 2/3 support",
               "Forms and Correspondence Systems for Users",
               "Data Asset Catalog",
-              "Agile DME and O&M support of 25 user-centric, mission-critical enterprise ICE Enforcement Systems",
+              "Agile DME and O&M support of 25 user-centric, mission-critical enterprise ICE Enforcement Systems running more than 40 applications operated within AWS GovCloud East and West",
               "DevSecOps",
               "Agile",
               "Supporting multiple value streams and business units",

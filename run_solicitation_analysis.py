@@ -5,6 +5,9 @@ import json
 import argparse
 from pathlib import Path
 from dotenv import load_dotenv
+import time
+from concurrent.futures import ThreadPoolExecutor
+from collections import defaultdict
 
 from rag.project_paths import (
     get_s3_prefix, get_local_folder, get_eval_criteria_path,
@@ -21,47 +24,18 @@ from rag.extract_capture_themes import parse_all_capture_files, save_capture_jso
 from rag.preparse_solicitation import extract_toc_and_sections, save_parsed_context, enrich_chunks_with_breadcrumbs
 from rag.extract_past_performance import extract_project_metadata, infer_project_name, merge_projects
 from rag.pp_matcher import tag_chunks_with_pp
+from rag.compliance_tagger import tag_compliance_chunks
+from rag.keyword_theme_analyzer import analyze_keywords_from_chunks
 
 load_dotenv(dotenv_path=".env.local")
 
-import time
 start_time = time.time()
-
-def perform_section_coverage_analysis(tagged_chunks, parsed_context, portfolio, opportunity):
-    print("\n🔍 Analyzing section coverage gaps...")
-    covered_section_ids = set()
-
-    for chunk in tagged_chunks:
-        section_id = chunk.get("section_id") or ""
-        tags = chunk.get("metadata", {}).get("agent_tags", {})
-
-        if (
-            tags.get("expectation_identifier", 0.0) > 0.6
-            or tags.get("eval_criteria_identifier", 0.0) > 0.6
-            or (isinstance(tags.get("win_theme_mapper"), dict) and tags["win_theme_mapper"].get("score", 0.0) > 0.6)
-            or "pp_matcher" in tags
-        ):
-            if section_id:
-                covered_section_ids.add(section_id)
-
-    uncovered_sections = [s for s in parsed_context["sections"] if s["id"] not in covered_section_ids]
-
-    print("\n🔹 Uncovered Sections:")
-    for s in uncovered_sections:
-        print(f" - {s['id']} {s['heading']}")
-
-    gap_report_path = f"data/{portfolio}/opportunities/{opportunity}/coverage_gaps.json"
-    os.makedirs(os.path.dirname(gap_report_path), exist_ok=True)
-    with open(gap_report_path, "w", encoding="utf-8") as f:
-        json.dump(uncovered_sections, f, indent=2)
-    print(f"\n📅 Coverage gap report saved to: {gap_report_path}")
 
 parser = argparse.ArgumentParser()
 parser.add_argument("portfolio")
 parser.add_argument("opportunity")
 parser.add_argument("--force-capture", action="store_true")
 parser.add_argument("--test-limit", type=int, default=None)
-parser.add_argument("--parallel", action="store_true", help="Run agents in parallel (default is sequential)")
 args = parser.parse_args()
 
 portfolio = args.portfolio
@@ -106,68 +80,6 @@ grouped_capture_data = {
     "differentiators": [c["text"] for c in capture_data if c["section"] == "discriminators"]
 } if isinstance(capture_data, list) else capture_data
 
-from concurrent.futures import ThreadPoolExecutor
-from collections import defaultdict
-
-# Generate criteria_text early for parallel tagger use
-criteria_chunks_for_prompt = [
-    {"chunk_id": c["chunk_id"], "text": c["text"]}
-    for c in chunks
-    if "evaluation" in c.get("text", "").lower()
-]
-criteria_text = "\n\n".join([c["text"] for c in criteria_chunks_for_prompt])
-
-print("\n\n🤖 Running taggers in parallel...")
-
-import time
-
-from rag.compliance_tagger import tag_compliance_chunks
-
-def run_all_taggers(chunks, capture_data, criteria_text, past_perf_projects, output_dir):
-    print("\n⏱️ Starting parallel agent tagging...")
-    start_time = time.time()
-    timings = {}
-
-    with ThreadPoolExecutor(max_workers=5) as executor:
-        def timed(name, fn):
-            t0 = time.time()
-            result = fn()
-            timings[name] = round(time.time() - t0, 2)
-# Introduce alternating delay between agents to ease throughput
-            time.sleep(0.5 if len(timings) % 2 == 0 else 1.0)
-            return result
-
-        f1 = executor.submit(lambda: timed("expectation_identifier", lambda: tag_expectation_identifier(chunks, capture_context=capture_data)))
-        f2 = executor.submit(lambda: timed("eval_criteria_identifier", lambda: tag_eval_criteria_chunks(chunks)))
-        f3 = executor.submit(lambda: timed("win_theme_mapper", lambda: tag_win_theme_mapper(chunks, capture_data, criteria_text)))
-        f4 = executor.submit(lambda: timed("pp_matcher", lambda: tag_chunks_with_pp(chunks, past_perf_projects)))
-        f5 = executor.submit(lambda: timed("compliance_tagger", lambda: tag_compliance_chunks(chunks)))
-
-        chunks1 = f1.result()
-        chunks2 = f2.result()
-        chunks3 = f3.result()
-        chunks4 = f4.result()
-        compliance_response, compliance_performance = f5.result()
-
-    elapsed = round(time.time() - start_time, 2)
-    print(f"\n✅ All agents completed in {elapsed} seconds")
-    print(f"🔢 Expectation Chunks: {len(chunks1)} | Eval Criteria: {len(chunks2)} | Win Themes: {len(chunks3)} | PP Matches: {len(chunks4)}")
-    print(f"📋 Compliance (response): {len(compliance_response)} | Compliance (performance): {len(compliance_performance)}")
-    print(f"\n🕒 Agent runtimes:")
-    for name, sec in sorted(timings.items(), key=lambda x: x[1], reverse=True):
-        print(f"  - {name}: {sec} seconds")
-
-    # Save compliance outputs
-    response_path = os.path.join(output_dir, "compliance_response.json")
-    performance_path = os.path.join(output_dir, "compliance_performance.json")
-    os.makedirs(output_dir, exist_ok=True)
-    with open(response_path, "w", encoding="utf-8") as f:
-        json.dump(compliance_response, f, indent=2)
-    with open(performance_path, "w", encoding="utf-8") as f:
-        json.dump(compliance_performance, f, indent=2)
-
-    return chunks1, chunks2, chunks3, chunks4, timings
-
 print("\n📂 Extracting past performance metadata...")
 pp_folder = f"data/{portfolio}/opportunities/{opportunity}/past_performance/"
 pp_output_path = get_past_perf_json_path(portfolio, opportunity)
@@ -176,54 +88,32 @@ projects_by_name = {}
 for doc in pp_docs:
     fname = Path(doc.metadata.get("source", "unknown")).name
     metadata = extract_project_metadata(doc.page_content, fname)
-    if not metadata: continue
+    if not metadata:
+        continue
     cid = metadata.get("contract_identification")
-    if not cid: continue
+    if not cid:
+        continue
     pname = infer_project_name(cid, fname)
     key = pname.strip().lower()
     projects_by_name[key] = merge_projects(projects_by_name.get(key, {}), metadata)
 with open(pp_output_path, "w", encoding="utf-8") as f:
     json.dump(list(projects_by_name.values()), f, indent=2)
 
-    if args.parallel:
-        print("\n🚀 Running agents in parallel...")
-        chunks1, chunks2, chunks3, chunks4, agent_timings = run_all_taggers(
-            chunks,
-            grouped_capture_data,
-            criteria_text,
-            list(projects_by_name.values()),
-            output_dir=f"data/{portfolio}/opportunities/{opportunity}"          
-            )
-    else:
-        print("\n🚶 Running agents sequentially...")
-        agent_timings = {}
-        t0 = time.time()
-        chunks1 = tag_expectation_identifier(chunks, capture_context=grouped_capture_data)
-        agent_timings["expectation_identifier"] = round(time.time() - t0, 2)
+print("\n🤖 Running taggers sequentially...")
+t0 = time.time()
+chunks1 = tag_expectation_identifier(chunks, capture_context=grouped_capture_data)
+chunks2 = tag_eval_criteria_chunks(chunks)
+criteria_text = "\n\n".join([c["text"] for c in chunks2 if c["metadata"]["agent_tags"].get("eval_criteria_identifier", 0.0) >= 0.7])
+chunks3 = tag_win_theme_mapper(chunks, grouped_capture_data, criteria_text)
+chunks4 = tag_chunks_with_pp(chunks, list(projects_by_name.values()))
+compliance_response, compliance_performance = tag_compliance_chunks(chunks)
 
-        t0 = time.time()
-        chunks2 = tag_eval_criteria_chunks(chunks)
-        agent_timings["eval_criteria_identifier"] = round(time.time() - t0, 2)
-
-        t0 = time.time()
-        chunks3 = tag_win_theme_mapper(chunks, grouped_capture_data, criteria_text)
-        agent_timings["win_theme_mapper"] = round(time.time() - t0, 2)
-
-        t0 = time.time()
-        chunks4 = tag_chunks_with_pp(chunks, list(projects_by_name.values()))
-        agent_timings["pp_matcher"] = round(time.time() - t0, 2)
-
-        t0 = time.time()
-        compliance_response, compliance_performance = tag_compliance_chunks(chunks)
-        agent_timings["compliance_tagger"] = round(time.time() - t0, 2)
-
-    # Save compliance
-    output_dir = f"data/{portfolio}/opportunities/{opportunity}"
-    with open(os.path.join(output_dir, "compliance_response.json"), "w") as f:
-        json.dump(compliance_response, f, indent=2)
-    with open(os.path.join(output_dir, "compliance_performance.json"), "w") as f:
-        json.dump(compliance_performance, f, indent=2)
-
+output_dir = f"data/{portfolio}/opportunities/{opportunity}"
+os.makedirs(output_dir, exist_ok=True)
+with open(os.path.join(output_dir, "compliance_response.json"), "w") as f:
+    json.dump(compliance_response, f, indent=2)
+with open(os.path.join(output_dir, "compliance_performance.json"), "w") as f:
+    json.dump(compliance_performance, f, indent=2)
 
 print("\n\n🔧 Merging agent outputs...")
 merged_by_id = defaultdict(dict)
@@ -237,6 +127,35 @@ print("\n🔁 Matching past performance to solicitation chunks...")
 tagged_chunks = tag_chunks_with_pp(tagged_chunks, list(projects_by_name.values()))
 
 print("\n📌 Step 8: Section coverage analysis...")
+def perform_section_coverage_analysis(tagged_chunks, parsed_context, portfolio, opportunity):
+    print("\n🔍 Analyzing section coverage gaps...")
+    covered_section_ids = set()
+
+    for chunk in tagged_chunks:
+        section_id = chunk.get("section_id") or ""
+        tags = chunk.get("metadata", {}).get("agent_tags", {})
+
+        if (
+            tags.get("expectation_identifier", 0.0) > 0.6
+            or tags.get("eval_criteria_identifier", 0.0) > 0.6
+            or (isinstance(tags.get("win_theme_mapper"), dict) and tags["win_theme_mapper"].get("score", 0.0) > 0.6)
+            or "pp_matcher" in tags
+        ):
+            if section_id:
+                covered_section_ids.add(section_id)
+
+    uncovered_sections = [s for s in parsed_context["sections"] if s["id"] not in covered_section_ids]
+
+    print("\n🔹 Uncovered Sections:")
+    for s in uncovered_sections:
+        print(f" - {s['id']} {s['heading']}")
+
+    gap_report_path = f"data/{portfolio}/opportunities/{opportunity}/coverage_gaps.json"
+    os.makedirs(os.path.dirname(gap_report_path), exist_ok=True)
+    with open(gap_report_path, "w", encoding="utf-8") as f:
+        json.dump(uncovered_sections, f, indent=2)
+    print(f"\n📅 Coverage gap report saved to: {gap_report_path}")
+
 perform_section_coverage_analysis(tagged_chunks, parsed_context, portfolio, opportunity)
 
 tagged_output_path = get_tagged_chunks_path(portfolio, opportunity)
@@ -244,16 +163,15 @@ os.makedirs(os.path.dirname(tagged_output_path), exist_ok=True)
 with open(tagged_output_path, "w", encoding="utf-8") as f:
     json.dump(tagged_chunks, f, indent=2)
 
-print("\n📌 [TODO] Compliance checklist extraction – NOT IMPLEMENTED YET")
-print("\n📌 [TODO] Risk identification – NOT IMPLEMENTED YET")
-print("\n📌 [TODO] Tone & style profiling – NOT IMPLEMENTED YET")
 print("\n📌 [TODO] Scoring rubric mapping – NOT IMPLEMENTED YET")
-print("\n📌 [TODO] Keyword/theme frequency analysis – NOT IMPLEMENTED YET")
+print("\n📌 [TODO] Tone & style profiling – NOT IMPLEMENTED YET")
 
-
-print("\n⏱️ Agent Timing Summary:")
-for name, seconds in sorted(agent_timings.items(), key=lambda x: x[1], reverse=True):
-    print(f"  - {name}: {seconds} seconds")
+print("\n📌 Step 13: Keyword/Theme Frequency Analysis...")
+keyword_result = analyze_keywords_from_chunks(tagged_chunks, portfolio, opportunity)
+keyword_path = os.path.join(output_dir, "keyword_themes.json")
+with open(keyword_path, "w", encoding="utf-8") as f:
+    json.dump(keyword_result, f, indent=2)
+print(f"📊 Saved keyword themes to: {keyword_path}")
 
 end_time = time.time()
 total_time = round(end_time - start_time, 2)

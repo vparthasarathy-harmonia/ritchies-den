@@ -1,0 +1,152 @@
+[
+  {
+    "type": "scope",
+    "requirement": "The contractor must provide field-wide deployment and maintenance of telecommunications intercept collection systems in support of criminal investigations.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "9dab5145"
+  },
+  {
+    "type": "system",
+    "requirement": "The contractor must support the CALEA network which receives, processes, buffers and transmits court authorized intercepted communications.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "9dab5145"
+  },
+  {
+    "type": "scope",
+    "requirement": "Provide CALEA network support, system administration, system engineering support, virtual environment support, Active Directory OU administration support, storage administration support, CALEA architecture support, and COOP site support",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "003458db"
+  },
+  {
+    "type": "scope",
+    "requirement": "Provide field operations support, technical service support, and inventory support",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "003458db"
+  },
+  {
+    "type": "compliance",
+    "requirement": "Comply with latest technology standards, architecture policies, processes and procedures applicable to ICE IT environment",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "003458db"
+  },
+  {
+    "type": "standards",
+    "requirement": "Comply with DHS 4300A Sensitive Systems Handbook, DHS 4300A Sensitive Systems Policy Directive, DHS 4300B National Security Systems Handbook, DHS Management Directive 4300, DHS MD 4010.2 on Section 508 accessibility",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "0e7e08ce"
+  },
+  {
+    "type": "standards",
+    "requirement": "Comply with NIST Computer Security Resources Center standards, guidelines, and special publications",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "0e7e08ce"
+  },
+  {
+    "type": "standards",
+    "requirement": "Comply with ICE Technical Reference Model, ICE Application Security Cyber Security Standard, ICE Architecture Test and Evaluation Plan, ICE Cybersecurity Standards, ICE Enterprise Systems Assurance Plan, ICE System Lifecycle Management Handbook, ICE Web Standards and Guidelines",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "0e7e08ce"
+  },
+  {
+    "type": "legal",
+    "requirement": "Comply with the Privacy Act of 1974 and Section 508 of the Rehabilitation Act",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "0e7e08ce"
+  },
+  {
+    "type": "architecture",
+    "requirement": "All IT hardware or software shall comply with the DHS Enterprise Architecture and ICE Technical Reference Model Standards and Products Profile",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "0e7e08ce"
+  },
+  {
+    "type": "encryption",
+    "requirement": "All encryption shall be FIPS 197 AES that is FIPS 140-2 certified",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "0e7e08ce"
+  },
+  {
+    "type": "data",
+    "requirement": "All data assets, information exchanges, and data standards shall comply with requirements, whether adopted or developed",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "0e7e08ce"
+  },
+  {
+    "type": "compliance",
+    "requirement": "All solutions and services shall meet DHS Enterprise Architecture (EA) policies, standards, and procedures",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "ac3ab2ee"
+  },
+  {
+    "type": "compliance",
+    "requirement": "All developed solutions and requirements shall be compliant with the DHS EA",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "ac3ab2ee"
+  },
+  {
+    "type": "compliance",
+    "requirement": "Development of data assets, information exchanges and data standards will comply with the DHS Enterprise Data Management Policy Directive 103-01 and all data-related artifacts will be developed and validated according to DHS data management architectural guidelines",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "ac3ab2ee"
+  },
+  {
+    "type": "ipv6",
+    "requirement": "In compliance with Office of Management and Budget (OMB) mandate, all network hardware shall be Internet Protocol version 6 (IPv6) compatible without modification, upgrade, or replacement",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "ac3ab2ee"
+  },
+  {
+    "type": "approval",
+    "requirement": "The Contractor shall not deviate from the SLM process without express approval granted by the Contracting Officer's Representative (COR)",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "ac3ab2ee"
+  },
+  {
+    "type": "security",
+    "requirement": "The application must be IPv6 compliant as defined in the U.S. Government Version 6 (USGv6) Profile and the USGv6 Test Program.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "0aad6285"
+  },
+  {
+    "type": "architecture",
+    "requirement": "The application must be designed for browser independence and work with major browsers like Chrome for Work.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "0aad6285"
+  },
+  {
+    "type": "architecture",
+    "requirement": "The application should utilize a responsive web design approach for optimal viewing across platforms.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "0aad6285"
+  },
+  {
+    "type": "compatibility",
+    "requirement": "The contractor must ensure the application is compatible with future versions of browsers used by ICE.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "0aad6285"
+  },
+  {
+    "type": "compliance",
+    "requirement": "Follow the ICE Open Source Manifesto when evaluating technologies, tools, software, and APIs",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a2a37821"
+  },
+  {
+    "type": "personnel",
+    "requirement": "Provide qualified, experienced personnel to perform the required services and support tasks",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a2a37821"
+  },
+  {
+    "type": "personnel",
+    "requirement": "Proficiently manage well-qualified IT professionals located across the Continental United States and U.S. territories",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a2a37821"
+  },
+  {
+    "type": "scope",
+    "requirement": "Provide CALEA network support services",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a2a37821"
+  }
+]

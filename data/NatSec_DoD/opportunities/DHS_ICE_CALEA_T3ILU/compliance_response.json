@@ -1,0 +1,44 @@
+[
+  {
+    "type": "submission",
+    "requirement": "Proposals must be submitted according to the instructions provided in the solicitation.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "992b1f8f"
+  },
+  {
+    "type": "submission",
+    "requirement": "Proposals must be submitted in response to the solicitation",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "8120c140"
+  },
+  {
+    "type": "submission",
+    "requirement": "Contractors must follow proposal submission instructions.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "9dab5145"
+  },
+  {
+    "type": "submission",
+    "requirement": "Follow proposal submission instructions",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "003458db"
+  },
+  {
+    "type": "submission",
+    "requirement": "Description information for all data assets, information exchanges and data standards, whether adopted or developed, shall be submitted to the Enterprise Data Management Office (EDMO) for review and insertion into the DHS Data Reference Model",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "ac3ab2ee"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Follow any formatting requirements specified in the solicitation",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a2a37821"
+  },
+  {
+    "type": "submission",
+    "requirement": "Follow any submission instructions specified in the solicitation",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a2a37821"
+  }
+]
