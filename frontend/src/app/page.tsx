@@ -66,6 +66,21 @@ export default function Home() {
 
         {/* Portfolio + Opportunity + Create */}
         <div className="flex flex-wrap sm:flex-nowrap gap-4 max-w-4xl items-center">
+  {/* Reset Button */}
+  
+  <button
+  onClick={() => {
+    localStorage.removeItem('portfolio');
+    localStorage.removeItem('opportunity');
+    setSelectedPortfolio('');
+    setSelectedOpportunity('');
+  }}
+  title="Clear Portfolio Selection"
+  className="text-blue-700 border border-blue-600 px-3 py-1 rounded hover:bg-blue-50 text-xl"
+>
+  🧹
+</button>
+
           {/* Portfolio Dropdown */}
           <select
             className="form-input flex-1 h-12 rounded-lg border border-gray-300 bg-white px-4 text-sm text-[#101518]"
