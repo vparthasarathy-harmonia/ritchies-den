@@ -15,15 +15,7 @@ export default function SidePanel() {
     >
       {/* TOP PANEL: Ritchie's logo + collapse toggle */}
       <div className="flex items-center justify-between px-4 py-4 border-b">
-        <div className="flex items-center gap-2">
-          <Image
-            src="/ritchie-logo.png"
-            alt="Ritchie Logo"
-            width={open ? 48 : 32}
-            height={open ? 48 : 32}
-            className="rounded-full"
-          />
-        </div>
+        
         <button
           onClick={() => setOpen(!open)}
           className="text-gray-500 hover:text-gray-800 focus:outline-none"
@@ -45,15 +37,7 @@ export default function SidePanel() {
         </div>
       )}
 
-      {/* RITCHIE'S DEN FRAME */}
-      {open && (
-        <div className="border-b border-gray-200 py-3 px-4 bg-white shadow-sm">
-          <h2 className="text-center text-base font-bold text-[#101518] tracking-tight">
-            Ritchie’s Den
-          </h2>
-        </div>
-      )}
-
+      
       {/* NAVIGATION */}
       <ul
         className={`flex flex-col gap-2 p-4 text-sm font-semibold text-[#101518] ${
