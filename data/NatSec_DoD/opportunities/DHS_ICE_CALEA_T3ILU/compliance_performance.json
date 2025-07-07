@@ -1,152 +1,2180 @@
 [
   {
-    "type": "scope",
-    "requirement": "The contractor must provide field-wide deployment and maintenance of telecommunications intercept collection systems in support of criminal investigations.",
+    "type": "deliverable",
+    "requirement": "The contractor must provide a solution to meet the requirements outlined in the Statement of Work",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "9dab5145"
+    "chunk_id": "c756ba11"
   },
   {
-    "type": "system",
-    "requirement": "The contractor must support the CALEA network which receives, processes, buffers and transmits court authorized intercepted communications.",
+    "type": "support",
+    "requirement": "Provide field-wide deployment and maintenance of telecommunications intercept collection systems in support of criminal investigations",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "9dab5145"
+    "chunk_id": "8ac27f46"
+  },
+  {
+    "type": "network",
+    "requirement": "Support the CALEA network to receive, process, buffer and transmit court authorized intercepted communications",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "8ac27f46"
   },
   {
     "type": "scope",
-    "requirement": "Provide CALEA network support, system administration, system engineering support, virtual environment support, Active Directory OU administration support, storage administration support, CALEA architecture support, and COOP site support",
+    "requirement": "Provide CALEA Network Support, System Administration, System Engineering Support, Virtual Environment Support, Active Directory Organizational Unit Administration Support, Storage Administration Support, CALEA Architecture Support, and Continuity of Operations (COOP) Site Support",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "003458db"
+    "chunk_id": "fde20141"
   },
   {
     "type": "scope",
-    "requirement": "Provide field operations support, technical service support, and inventory support",
+    "requirement": "Provide Field Operations Support, Technical Service Support, and Inventory Support",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "003458db"
+    "chunk_id": "fde20141"
   },
   {
     "type": "compliance",
-    "requirement": "Comply with latest technology standards, architecture policies, processes and procedures applicable to ICE IT environment",
+    "requirement": "Comply with the latest technology standards, architecture policies, processes and procedures applicable to the ICE Information Technology environment",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "003458db"
+    "chunk_id": "fde20141"
   },
   {
     "type": "standards",
     "requirement": "Comply with DHS 4300A Sensitive Systems Handbook, DHS 4300A Sensitive Systems Policy Directive, DHS 4300B National Security Systems Handbook, DHS Management Directive 4300, DHS MD 4010.2 on Section 508 accessibility",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "0e7e08ce"
+    "chunk_id": "c7c01055"
   },
   {
     "type": "standards",
     "requirement": "Comply with NIST Computer Security Resources Center standards, guidelines, and special publications",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "0e7e08ce"
+    "chunk_id": "c7c01055"
   },
   {
     "type": "standards",
     "requirement": "Comply with ICE Technical Reference Model, ICE Application Security Cyber Security Standard, ICE Architecture Test and Evaluation Plan, ICE Cybersecurity Standards, ICE Enterprise Systems Assurance Plan, ICE System Lifecycle Management Handbook, ICE Web Standards and Guidelines",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "0e7e08ce"
+    "chunk_id": "c7c01055"
   },
   {
     "type": "legal",
     "requirement": "Comply with the Privacy Act of 1974 and Section 508 of the Rehabilitation Act",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "0e7e08ce"
+    "chunk_id": "c7c01055"
   },
   {
     "type": "architecture",
     "requirement": "All IT hardware or software shall comply with the DHS Enterprise Architecture and ICE Technical Reference Model Standards and Products Profile",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "0e7e08ce"
+    "chunk_id": "c7c01055"
   },
   {
     "type": "encryption",
     "requirement": "All encryption shall be FIPS 197 AES that is FIPS 140-2 certified",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "0e7e08ce"
+    "chunk_id": "c7c01055"
   },
   {
     "type": "data",
     "requirement": "All data assets, information exchanges, and data standards shall comply with requirements, whether adopted or developed",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "0e7e08ce"
+    "chunk_id": "c7c01055"
   },
   {
     "type": "compliance",
     "requirement": "All solutions and services shall meet DHS Enterprise Architecture (EA) policies, standards, and procedures",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "ac3ab2ee"
+    "chunk_id": "da343bf1"
   },
   {
     "type": "compliance",
     "requirement": "All developed solutions and requirements shall be compliant with the DHS EA",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "ac3ab2ee"
+    "chunk_id": "da343bf1"
   },
   {
     "type": "compliance",
     "requirement": "Development of data assets, information exchanges and data standards will comply with the DHS Enterprise Data Management Policy Directive 103-01 and all data-related artifacts will be developed and validated according to DHS data management architectural guidelines",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "ac3ab2ee"
+    "chunk_id": "da343bf1"
   },
   {
     "type": "ipv6",
     "requirement": "In compliance with Office of Management and Budget (OMB) mandate, all network hardware shall be Internet Protocol version 6 (IPv6) compatible without modification, upgrade, or replacement",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "ac3ab2ee"
+    "chunk_id": "da343bf1"
   },
   {
     "type": "approval",
     "requirement": "The Contractor shall not deviate from the SLM process without express approval granted by the Contracting Officer's Representative (COR)",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "ac3ab2ee"
+    "chunk_id": "da343bf1"
   },
   {
     "type": "security",
     "requirement": "The application must be IPv6 compliant as defined in the U.S. Government Version 6 (USGv6) Profile and the USGv6 Test Program.",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "0aad6285"
+    "chunk_id": "dc4870ff"
   },
   {
     "type": "architecture",
     "requirement": "The application must be designed for browser independence and work with major browsers like Chrome for Work.",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "0aad6285"
+    "chunk_id": "dc4870ff"
   },
   {
     "type": "architecture",
     "requirement": "The application should utilize a responsive web design approach for optimal viewing across platforms.",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "0aad6285"
+    "chunk_id": "dc4870ff"
   },
   {
     "type": "compatibility",
-    "requirement": "The contractor must ensure the application is compatible with future versions of browsers used by ICE.",
+    "requirement": "The contractor must ensure application compatibility if ICE upgrades to newer browser versions.",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "0aad6285"
+    "chunk_id": "dc4870ff"
   },
   {
     "type": "compliance",
     "requirement": "Follow the ICE Open Source Manifesto when evaluating technologies, tools, software, and APIs",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "a2a37821"
+    "chunk_id": "38afff8a"
   },
   {
     "type": "personnel",
     "requirement": "Provide qualified, experienced personnel to perform the required services and support tasks",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "a2a37821"
+    "chunk_id": "38afff8a"
   },
   {
     "type": "personnel",
     "requirement": "Proficiently manage well-qualified IT professionals located across the Continental United States and U.S. territories",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "a2a37821"
+    "chunk_id": "38afff8a"
   },
   {
     "type": "scope",
     "requirement": "Provide CALEA network support services",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "a2a37821"
+    "chunk_id": "38afff8a"
+  },
+  {
+    "type": "personnel",
+    "requirement": "Provide necessary personnel and technical resources for full-time and emergency after-hours support",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "14370e39"
+  },
+  {
+    "type": "maintenance",
+    "requirement": "Maintain the network, including LAN/WAN links, switches, routers, firewalls, servers, SAN, backup systems, cabling, and other infrastructure components",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "14370e39"
+  },
+  {
+    "type": "security",
+    "requirement": "Provide network security, ensuring only authorized personnel can access the LAN/WAN",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "14370e39"
+  },
+  {
+    "type": "design",
+    "requirement": "Support the design of future network architecture including routers, switches, firewalls, VPNs, servers, SAN, VMware, cable management, and other enhancements",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "14370e39"
+  },
+  {
+    "type": "analysis",
+    "requirement": "Analyze the network architecture utilizing available metrics",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "14370e39"
+  },
+  {
+    "type": "documentation",
+    "requirement": "Maintain documentation for all servers and applications in SOP Repository",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "e6c68a5f"
+  },
+  {
+    "type": "documentation",
+    "requirement": "Maintain technical documentation to the Standard Operating Procedures (SOPs) Repository for the CALEA infrastructure including technical drawings, wiring diagrams, network diagrams, and other required documentation",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "e6c68a5f"
+  },
+  {
+    "type": "documentation",
+    "requirement": "Maintain documentation necessary to obtain and install certificates as required by the Government leads",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "e6c68a5f"
+  },
+  {
+    "type": "continuity",
+    "requirement": "Support the backup systems and off-site storage as part of the Continuity of Operations Plan",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "e6c68a5f"
+  },
+  {
+    "type": "support",
+    "requirement": "Provide technical support for any failure of the backup systems, critical components, and mission critical user support",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "e6c68a5f"
+  },
+  {
+    "type": "support",
+    "requirement": "Provide after-hours support on an on-call basis",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "e6c68a5f"
+  },
+  {
+    "type": "scope",
+    "requirement": "The Contractor shall provide the necessary personnel and technical resources to provide full-time support to a variety of operational technology systems at designated ICE Field Offices and other HSI facilities.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "5248ac34"
+  },
+  {
+    "type": "tasks",
+    "requirement": "The Contractor shall perform system installation, set-up, administration, maintenance, troubleshooting, and user support to customer supplied electronic surveillance collection systems to support the investigative (Title III and Pen Register) priorities of Criminal Investigations.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "5248ac34"
+  },
+  {
+    "type": "tasks",
+    "requirement": "The Contractor shall integrate and support associated feeder collection systems, as needed, to required external systems, services, and inputs to collect unprocessed evidence and intelligence data that will be used for further analysis in support of lawful investigations.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "5248ac34"
+  },
+  {
+    "type": "administration",
+    "requirement": "Provide day-to-day system and database administration of all aspects of the collection systems",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "18f265c2"
+  },
+  {
+    "type": "maintenance",
+    "requirement": "Maintain specific HSI collection systems and perform periodic maintenance",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "18f265c2"
+  },
+  {
+    "type": "troubleshooting",
+    "requirement": "Troubleshoot coppers/fiber cabling between the devices and re-terminate cables as needed",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "18f265c2"
+  },
+  {
+    "type": "personnel",
+    "requirement": "The Contractor shall provide the necessary personnel and technical resources to support ICE with processing Government Furnished Property (GFP), Government Furnished Equipment (GFE) and personal property within the Sunflower Asset Management System (SAMS) or other designated inventory management system.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "eaf071f0"
+  },
+  {
+    "type": "technical",
+    "requirement": "The Contractor will work with various hardware devices and applications including, but not limited to, word processors, spreadsheets, presentation graphics, database management systems, document management systems, e-mail programs, and communication systems.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "eaf071f0"
+  },
+  {
+    "type": "security",
+    "requirement": "Contractors will use GFE to perform work under this Task Order and are prohibited from placing ICE data on any non-GFE technology.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "577a3ad2"
+  },
+  {
+    "type": "deliverable",
+    "requirement": "All training materials, policies, procedures, and electronic work products generated as a result of this Task Order becomes the property of ICE.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "577a3ad2"
+  },
+  {
+    "type": "equipment",
+    "requirement": "The Contractor shall keep an inventory of GFE, which shall be made available to the COR upon request.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "577a3ad2"
+  },
+  {
+    "type": "equipment",
+    "requirement": "The Government will provide basic equipment (e.g., laptops, tablets, iPhones, biometric equipment, PIV cards) in accordance with the Task Order.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "577a3ad2"
+  },
+  {
+    "type": "equipment",
+    "requirement": "Contractor shall provide a fully executed Property Receipt to the ICE Property Custodian within 48 hours of receipt.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "577a3ad2"
+  },
+  {
+    "type": "equipment",
+    "requirement": "The Government will provide any test, analytical, and other IT equipment currently used on-site at the Government facilities to support the Contractor in supporting the Title III systems and CALEA network requirement under this Task Order.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "577a3ad2"
+  },
+  {
+    "type": "connectivity",
+    "requirement": "The Contractor shall provide its own network connectivity capability with a minimum connection speed of 10 Mbps.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "577a3ad2"
+  },
+  {
+    "type": "travel",
+    "requirement": "Contractor personnel must travel to ICE Field Offices across the continental United States (CONUS) and other approved facilities (limited to CONUS only) at the discretion of the Contracting Officer's Representative (COR).",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "507548b0"
+  },
+  {
+    "type": "locations",
+    "requirement": "The primary work locations shall be California, Georgia, Minnesota, Oregon, Texas and Virginia, but are subject to change.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "507548b0"
+  },
+  {
+    "type": "travel",
+    "requirement": "The Contractor shall travel as required during the performance of this Task Order and obtain prior approval from the COR for all travel.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "2a0cb91a"
+  },
+  {
+    "type": "invoicing",
+    "requirement": "Upon completion of travel, all documentation associated with the respective travel shall be submitted with the invoices.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "2a0cb91a"
+  },
+  {
+    "type": "reimbursement",
+    "requirement": "The Contractor shall not be reimbursed for certain travel expenses such as local commuting, moving/relocation expenses, or if appropriate documentation is not provided.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "2a0cb91a"
+  },
+  {
+    "type": "reporting",
+    "requirement": "Document the following travel information in the monthly report: Name of Traveler, Destination, Dates of Travel, Cost (broken down by airfare, car rental, lodging cost, per diem, baggage cost, fuel and Taxi/subway), Approval Date, Name of COR Approving Travel, Detailed Travel Justification",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "19d6ce30"
+  },
+  {
+    "type": "reporting",
+    "requirement": "Provide the COR a trip report which should include: Detailed Travel Summary, including Accomplishments, Observations, Findings, Recommendations after travel",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "19d6ce30"
+  },
+  {
+    "type": "travel",
+    "requirement": "Track, monitor and maintain a current log of all employees on travel",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "19d6ce30"
+  },
+  {
+    "type": "travel",
+    "requirement": "Clearly document in the trip report the purpose of the travel, estimated cost, locations, travel dates, Government requester, supported work, and any other justifications or supportive documentation required by the COR",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "19d6ce30"
+  },
+  {
+    "type": "travel",
+    "requirement": "Have available and assign local resources (within fifty (50) miles of work location) to work on task as a first option",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "19d6ce30"
+  },
+  {
+    "type": "travel",
+    "requirement": "Request local resource exception if labor not available",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "19d6ce30"
+  },
+  {
+    "type": "travel",
+    "requirement": "Hotel selection has to be within five (5) miles of work location, special exception should be requested if none available, this exception request should include list of three (3) hotels and prices nearby the work location",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "19d6ce30"
+  },
+  {
+    "type": "approval",
+    "requirement": "The Contractor shall ensure all appropriate prior approvals are obtained before any travel is scheduled or performed.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "8a486f06"
+  },
+  {
+    "type": "notification",
+    "requirement": "The Contractor shall ensure the approved request is provided to the COR / GTM, as applicable, by the end of the next business day.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "8a486f06"
+  },
+  {
+    "type": "documentation",
+    "requirement": "The Contractor shall ensure all traveling staff is provided a copy of the approved request to carry with them.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "8a486f06"
+  },
+  {
+    "type": "notification",
+    "requirement": "The Contractor shall notify the COR in accordance with the established approval levels, in writing or email for prior approval when the actual cost is projected to exceed the estimated cost prior to incurring the cost and prior to invoicing the Government for the additional cost.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "8a486f06"
+  },
+  {
+    "type": "efficiency",
+    "requirement": "The Contractor shall use only the minimum number of travelers and rental cars needed to accomplish the trip's purpose.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "8a486f06"
+  },
+  {
+    "type": "travel",
+    "requirement": "Local travel within 50 miles of the work location is not reimbursable.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "323320bf"
+  },
+  {
+    "type": "travel",
+    "requirement": "Travel outside of local travel area (more than 50 miles from normal duty location) is reimbursable for the number of miles above 50 miles.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "323320bf"
+  },
+  {
+    "type": "approval",
+    "requirement": "All travel requires prior approval from the Contracting Officer's Representative (COR).",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "323320bf"
+  },
+  {
+    "type": "travel",
+    "requirement": "CONUS (continental US) travel requires prior approval from the COR.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "323320bf"
+  },
+  {
+    "type": "travel",
+    "requirement": "Contractor must obtain approval for travel outside the continental United States (OCONUS)",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "b04d14b6"
+  },
+  {
+    "type": "location",
+    "requirement": "Work must be performed primarily at government facilities in specified locations",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "b04d14b6"
+  },
+  {
+    "type": "period",
+    "requirement": "The period of performance includes a base year of 12 months, and 3 option years of 12 months each",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "b04d14b6"
+  },
+  {
+    "type": "schedule",
+    "requirement": "Regular business hours under this Task Order shall be an eight (8) hour workday, between 7:00 a.m. to 5:30 p.m., Monday to Friday local time.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "794f88fb"
+  },
+  {
+    "type": "coverage",
+    "requirement": "All dedicated Contractor support personnel positions require shift work providing 24/7 coverage and on-call access.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "794f88fb"
+  },
+  {
+    "type": "schedule",
+    "requirement": "Alternate work schedules must be pre-approved in writing by the COR to ensure coverage and services availability and will be approved on a case-by-case basis by the COR.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "794f88fb"
+  },
+  {
+    "type": "schedule",
+    "requirement": "Variable work schedules may approved by the COR on a case-by-case basis if deemed necessary by the Government to address mission needs.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "794f88fb"
+  },
+  {
+    "type": "overtime",
+    "requirement": "Requested overtime shall require prior written approval from the COR.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "794f88fb"
+  },
+  {
+    "type": "location",
+    "requirement": "Contractor personnel located within the Cyber and Operational Technology Division in Lorton, VA are permitted to work a hybrid work schedule of three (3) days in office and two (2) days telework.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "5952bedd"
+  },
+  {
+    "type": "telework",
+    "requirement": "The Government will not provide space or internet access for teleworking personnel. Contractor or its personnel are responsible for providing the necessary office space and internet access to support working in a telework environment.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "5952bedd"
+  },
+  {
+    "type": "training",
+    "requirement": "The Contractor shall be responsible for providing training to their personnel. The Contractor shall ensure all appropriate Contractor staff attend and any applicable Government required training at Contractor expense when needed for COTS applications and tools. The Contractor shall ensure all Contractor staff skills and knowledge are kept current via retraining at Contractor expense to the appropriate level based on their responsibilities.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "5952bedd"
+  },
+  {
+    "type": "training",
+    "requirement": "The Contractor shall ensure that Contractor staff complete all mandatory Government training requirements on Government on-site IT resources before the required deadline.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a49ca3c1"
+  },
+  {
+    "type": "training",
+    "requirement": "The Contractor shall be reimbursed for actual allowable, allocable, and reasonable training costs incurred during performance of this effort.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a49ca3c1"
+  },
+  {
+    "type": "deliverables",
+    "requirement": "The Contractor shall submit all deliverables to the COR and other Government Representatives.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a49ca3c1"
+  },
+  {
+    "type": "deliverable",
+    "requirement": "The Contractor shall present Kick-Off Presentation within 7 calendar days after start of Task Order award performance, to include an overview of the project team, scope of work, deliverables, communication approach, initial risks or issues, and next steps.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "11417ee7"
+  },
+  {
+    "type": "deliverable",
+    "requirement": "The Contractor shall also document Contractor positions at all ICE locations.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "11417ee7"
+  },
+  {
+    "type": "deliverable",
+    "requirement": "The Contractor shall develop and provide a Project Management Plan.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "11417ee7"
+  },
+  {
+    "type": "deliverable",
+    "requirement": "The Contractor shall submit a Project Management Plan for outlining the project execution and project control, including the approach, roles, responsibilities, cost, schedule, and scope.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "0284c541"
+  },
+  {
+    "type": "deliverable",
+    "requirement": "The Contractor shall submit the Monthly Project Status Report by the 5th day or next following business day (for previous month).",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "0284c541"
+  },
+  {
+    "type": "deliverable",
+    "requirement": "The Contractor shall include historical information for trending purposes, details of work performed, hours spent, accomplishments, staffing, travel, overtime, issues, risks, mitigation strategies, and any action plans in the Monthly Project Status Report.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "0284c541"
+  },
+  {
+    "type": "deliverable",
+    "requirement": "The Contractor shall submit the SOPs by the 30 calendar days after Task Order award.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "79f12017"
+  },
+  {
+    "type": "deliverable",
+    "requirement": "The Contractor shall submit 'as required' by the COR a Meeting Agenda Report.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "79f12017"
+  },
+  {
+    "type": "deliverable",
+    "requirement": "The Contractor shall submit 'as required' by the COR a Meeting Minutes Report.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "79f12017"
+  },
+  {
+    "type": "deliverable",
+    "requirement": "The Contractor shall submit quarterly a Program Management Review Report.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "79f12017"
+  },
+  {
+    "type": "deliverable",
+    "requirement": "Within 24 hours after initial request from the COR, the Contractor shall provide a GFE Inventory Report.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "ab3706e7"
+  },
+  {
+    "type": "deliverable",
+    "requirement": "Within 7 calendar days of the due date for a data call request the Contractor shall provide a Data Call Response Report.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "ab3706e7"
+  },
+  {
+    "type": "acceptance",
+    "requirement": "The Government shall provide written notification of acceptance or rejection of all final deliverables within 14 calendar days of receipt.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "ab3706e7"
+  },
+  {
+    "type": "deliverable",
+    "requirement": "Deliverables shall be deemed acceptable if the document adequately covers all required topics, meets general quality measures.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "9e290d46"
+  },
+  {
+    "type": "quality",
+    "requirement": "Work Products shall be accurate in presentation, technical content, and adherence to accepted elements of style.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "9e290d46"
+  },
+  {
+    "type": "quality",
+    "requirement": "Work Products shall be clear and concise. Any/All diagrams and graphics shall be easy to understand and be relevant to the supporting narrative.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "9e290d46"
+  },
+  {
+    "type": "quality",
+    "requirement": "All text and diagrammatic files shall be editable by the government.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "9e290d46"
+  },
+  {
+    "type": "deliverable",
+    "requirement": "The documents shall be considered final upon receiving government acceptance.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "9e290d46"
+  },
+  {
+    "type": "sla",
+    "requirement": "Non-conforming products or services will be rejected. The Government will provide written notification of non-conforming products or services within 14 calendar days of receipt.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a243bab5"
+  },
+  {
+    "type": "sla",
+    "requirement": "Deficiencies shall be corrected within 14 calendar days of the rejection notice.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a243bab5"
+  },
+  {
+    "type": "sla",
+    "requirement": "If the deficiencies cannot be corrected within 14 calendar days, the Contractor shall immediately notify the COR of the reason for the delay and provide a proposed corrective action plan within 10 calendar days of receiving the non-conforming products or service notification.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a243bab5"
+  },
+  {
+    "type": "sla",
+    "requirement": "The Government will provide written acceptance, comments and/or change requests, if any, within 7 calendar days business days from receipt by the Government of each draft deliverable.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a243bab5"
+  },
+  {
+    "type": "deliverable",
+    "requirement": "The Contractor shall provide a Transition-In Plan.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a243bab5"
+  },
+  {
+    "type": "staffing",
+    "requirement": "All positions must be located within the zip codes provided.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "c33bc366"
+  },
+  {
+    "type": "staffing",
+    "requirement": "Optional personnel may be required, if/when exercised by the Government. If exercised, it is expected optional personnel will also serve in a full-time capacity for the duration of the Task Order or until an equivalent replacement is nominated by the Contractor and accepted by the COR.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "c33bc366"
+  },
+  {
+    "type": "skills",
+    "requirement": "Proficient using SAN/RAID and removable storage media, including CD/DVD and Blu-Ray Discs",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "b7509f96"
+  },
+  {
+    "type": "communication",
+    "requirement": "Excellent verbal and written communications in English to include strong teamwork skills",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "b7509f96"
+  },
+  {
+    "type": "supervision",
+    "requirement": "The candidate must be capable of performing duties without direct supervision",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "b7509f96"
+  },
+  {
+    "type": "physical",
+    "requirement": "Regularly required to walk, sit, stand, kneel, crouch, crawl, reach, lift, carry, push, pull, or otherwise move objects up to 50 lbs. and occasionally lift and/or move up to 80 lbs. Use of a hand truck and/or lift cart is required",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "b7509f96"
+  },
+  {
+    "type": "sensory",
+    "requirement": "Critical sensory requirements include general vision, close vision, distance vision, color vision, peripheral vision, depth perception, and ability to focus; and Hearing or listening in normal range",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "b7509f96"
+  },
+  {
+    "type": "environment",
+    "requirement": "The noise levels vary based on the size/amount of servers located within the facility, but are usually moderate in sound",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "b7509f96"
+  },
+  {
+    "type": "sla",
+    "requirement": "Contractor must provide resolution of system failures and degradations",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a7e96310"
+  },
+  {
+    "type": "deliverable",
+    "requirement": "Contractor must perform system installation, setup, administration, maintenance, troubleshooting and end-user support",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a7e96310"
+  },
+  {
+    "type": "education",
+    "requirement": "Bachelor's degree in Information Technology, Homeland Security, engineering or related field required, or 5 additional years of experience",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a7e96310"
+  },
+  {
+    "type": "experience",
+    "requirement": "3 years or more of relevant experience in an enterprise IT network and computer systems environment required",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a7e96310"
+  },
+  {
+    "type": "certification",
+    "requirement": "Microsoft Certified Solutions Associate (MCSA), Microsoft Certified Systems Engineer (MCSE) with Security, and Project Manager Professional (PMP) certifications preferred",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a7e96310"
+  },
+  {
+    "type": "physical",
+    "requirement": "The contractor must be able to walk, sit, stand, kneel, crouch, crawl, reach, lift, carry, push, pull, or otherwise move objects up to 50 lbs. and occasionally lift and/or move up to 80 lbs.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "b694dca6"
+  },
+  {
+    "type": "sensory",
+    "requirement": "Critical sensory requirements include general vision, close vision, distance vision, color vision, peripheral vision, depth perception, and ability to focus; and hearing or listening in normal range.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "b694dca6"
+  },
+  {
+    "type": "education",
+    "requirement": "The Journey Management Analyst must have a Bachelor's degree from a nationally accredited college/university or 4 additional years of related work experience.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "b694dca6"
+  },
+  {
+    "type": "experience",
+    "requirement": "The Journey Management Analyst must have 4 years or more of relevant experience in logistic/inventory support.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "b694dca6"
+  },
+  {
+    "type": "duties",
+    "requirement": "The Journey Management Analyst will have overall responsibility to primarily support the government processing government owned property (GFP), equipment (GFE) and personal property within the SAMS or other designated inventory management system. Also support a variety of operational technology systems, troubleshooting and end-user support to COT- TOC- supplied equipment and inventory management functions in support of the intelligence and investigative priorities HSI's mission.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "b694dca6"
+  },
+  {
+    "type": "education",
+    "requirement": "Bachelor's degree from an accredited university or 4 additional years of related work experience",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "7cedba4f"
+  },
+  {
+    "type": "skills",
+    "requirement": "Proficiency in Windows operating systems and basic Microsoft Office products",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "7cedba4f"
+  },
+  {
+    "type": "communication",
+    "requirement": "Strong verbal and written communication skills in English, with focus on effective teamwork",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "7cedba4f"
+  },
+  {
+    "type": "interpersonal",
+    "requirement": "Excellent interpersonal skills to interact with diverse individuals including agents, analysts, linguists, and end-users",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "7cedba4f"
+  },
+  {
+    "type": "independence",
+    "requirement": "Ability to work independently and perform tasks without direct supervision",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "7cedba4f"
+  },
+  {
+    "type": "security",
+    "requirement": "Comply with any security requirements specified in section 14.0 of the solicitation",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "7cedba4f"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must provide a list of all positions, including titles and specific description of duties for each position assigned to support the contract, before submitting personnel for security vetting.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "d93bb398"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must adhere to the position designation requirements outlined in Title 5, CFR part 731, dated December 18, 2024, and 5 CFR 1400.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "d93bb398"
+  },
+  {
+    "type": "security",
+    "requirement": "Contractor employees must undergo a Fitness screening process and receive a favorable preliminary Fitness determination from the ICE Office of Professional Responsibility (OPR) Personnel Security Division (PSD) before being allowed to enter on duty, access sensitive information or systems, or have unescorted access to a Government facility.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "e68d52fb"
+  },
+  {
+    "type": "security",
+    "requirement": "Contractor employees having direct contact with detainees will have considerations made under 6 CFR \u00a7 115.117 as part of the Fitness screening process, which implements the Prison Rape Elimination Act (PREA) of 2003.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "e68d52fb"
+  },
+  {
+    "type": "security",
+    "requirement": "Contractor employees needing access to sensitive information and/or ICE Detainees shall undergo a position sensitivity analysis and appropriate background investigation.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "4d435231"
+  },
+  {
+    "type": "submission",
+    "requirement": "The contractor shall submit the DHS Form 11000-25 and ICE Supplement to the DHS Form 11000-25 to OPR PSD for contractor applicant/employees within 10 days of initiating an Electronic Application for Background Investigations (eAPP).",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "4d435231"
+  },
+  {
+    "type": "submission",
+    "requirement": "The contractor shall submit the Standard Form 85P or Standard Form 85PS with supplement to 85P for those with direct contact with detainees or armed positions, completed online and archived by the contractor applicant/employee in their NBIS eAPP account, to OPR PSD within 10 days of initiating an eAPP.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "4d435231"
+  },
+  {
+    "type": "submission",
+    "requirement": "Contractor applicants/employees must complete and submit various forms and documents as part of the background investigation process.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "968538c5"
+  },
+  {
+    "type": "security",
+    "requirement": "Contractor applicants/employees must undergo a background investigation, including submitting fingerprints and other personal information.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "968538c5"
+  },
+  {
+    "type": "security",
+    "requirement": "Contractor employees who have an adequate, current investigation by another Federal Agency may not be required to submit complete security packages; the investigation may be accepted under transfer of trust.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "e757cac3"
+  },
+  {
+    "type": "security",
+    "requirement": "The questionnaire related to 6 CFR \u00a7 115.117 will be required for positions designated under PREA.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "e757cac3"
+  },
+  {
+    "type": "security",
+    "requirement": "OPM removed the 24-month break-in-service provision for transfer of trust, replacing it with a new tiered, risk-based approach of graduated levels of investigation up to sixty months.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "e757cac3"
+  },
+  {
+    "type": "security",
+    "requirement": "The fixed five-year periodic reinvestigation for public trust positions and national security positions will be eliminated once personnel are enrolled in a continuous vetting program.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "e757cac3"
+  },
+  {
+    "type": "security",
+    "requirement": "Contractor applicants/employees must currently reside in the United States or its Territories.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "1b731810"
+  },
+  {
+    "type": "security",
+    "requirement": "Contractor applicants/employees are required to have resided within the United States or its Territories for three or more years out of the last five.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "1b731810"
+  },
+  {
+    "type": "security",
+    "requirement": "Contractor employees falling under certain situations may be exempt from the residency requirement.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "1b731810"
+  },
+  {
+    "type": "eligibility",
+    "requirement": "Only U.S. citizens are eligible for positions requiring access to DHS Information Technology (IT) systems or positions that are involved in the development, operation, management, or maintenance of DHS IT systems, unless an exception is granted.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "5c38a7c5"
+  },
+  {
+    "type": "security",
+    "requirement": "ICE will exercise full control over granting, denying and/or restrict facility and information access of any contractor employee whose actions conflict with Fitness standards contained in 5 CFR 731 and DHS Instruction 121-01-007, Revision 2, dated August 10, 2024, or who violate standards of conduct under 6 CFR \u00a7 115.117.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "5c38a7c5"
+  },
+  {
+    "type": "security",
+    "requirement": "The Contracting Officer or their representative can determine if a risk of compromising sensitive Government information exists or if the efficiency of service is at risk and may direct immediate removal of a contractor employee from contract support.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "5c38a7c5"
+  },
+  {
+    "type": "compliance",
+    "requirement": "The contractor must comply with all requirements that facilitate the mandated transition to Trusted Workforce (TW) 2.0",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "e5ac41ac"
+  },
+  {
+    "type": "personnel",
+    "requirement": "All contractor employees will be subjected to the transition to Trusted Workforce (TW) 2.0 and will be enrolled into a continuous vetting system",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "e5ac41ac"
+  },
+  {
+    "type": "personnel",
+    "requirement": "If concerns about a contractor employee cannot be mitigated under the continuous vetting process, the contractor employee will be removed from the ICE contract upon notification",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "e5ac41ac"
+  },
+  {
+    "type": "notification",
+    "requirement": "The contractor will notify OPR PSD of all terminations/resignations of contractor employees under the contract within five days of occurrence.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "0cda3e68"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor will return any expired ICE issued identification cards and building passes of terminated/resigned employees to the COR.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "0cda3e68"
+  },
+  {
+    "type": "reporting",
+    "requirement": "The CORs notify the servicing personnel and industrial security offices when a contractor employee is no longer working for DHS on any contract and report any derogatory information concerning the individual immediately.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "0cda3e68"
+  },
+  {
+    "type": "reporting",
+    "requirement": "The contractor will provide a Quarterly Report containing the names of contractor employees actively serving on their contract.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "364dbb03"
+  },
+  {
+    "type": "security",
+    "requirement": "Contractors involved with management and/or use of sensitive information are required to complete the DHS Form 11000-6-Sensitive but Unclassified Information Non-Disclosure Agreement.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "364dbb03"
+  },
+  {
+    "type": "security",
+    "requirement": "All sensitive information must be protected from loss, misuse, modification, and unauthorized access in accordance with DHS Management Directive 11042.1, DHS Policy for Sensitive Information and ICE Policy 4003, Safeguarding Law Enforcement Sensitive Information.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "c5e99659"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor shall appoint a senior official to act as the Corporate Security Officer to interface with the government on security matters.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "d64b9159"
+  },
+  {
+    "type": "security",
+    "requirement": "The government shall have the right to inspect the contractor's security procedures and facilities.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "d64b9159"
+  },
+  {
+    "type": "security",
+    "requirement": "When processing sensitive government information, the contractor must provide administrative control and adhere to DHS security procedures.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "d64b9159"
+  },
+  {
+    "type": "security",
+    "requirement": "Contractor employees must have favorably adjudicated background investigations commensurate with the defined sensitivity level.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "d64b9159"
+  },
+  {
+    "type": "security",
+    "requirement": "Contractor employees who fail to comply with Department security policy are subject to having their access to Department IT systems and facilities terminated, regardless the failure results in criminal prosecution.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "31f71ff8"
+  },
+  {
+    "type": "security",
+    "requirement": "Any person who improperly discloses sensitive information is subject to criminal and civil penalties and sanctions under a variety of laws (e.g., Privacy Act).",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "31f71ff8"
+  },
+  {
+    "type": "security",
+    "requirement": "All contractor employees accessing Department IT systems or processing DHS sensitive data via an IT system will require an ICE issued/provisioned Personal Identity Verification (PIV) card.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "31f71ff8"
+  },
+  {
+    "type": "training",
+    "requirement": "Cybersecurity Awareness Training (CSAT) will be required upon initial access and annually thereafter for all contractor employees accessing Department IT systems or processing DHS sensitive data.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "31f71ff8"
+  },
+  {
+    "type": "training",
+    "requirement": "Contractor employees, who are involved with management, use, or operation of any IT systems that handle sensitive information within or under the supervision of the Department, shall receive periodic training at least annually in security awareness and accepted security practices, systems rules of behavior, to include Unauthorized Disclosure Training.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "31f71ff8"
+  },
+  {
+    "type": "training",
+    "requirement": "Contractor personnel shall receive specialized training specific to their security responsibilities annually.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "4180526d"
+  },
+  {
+    "type": "security",
+    "requirement": "System Administrators should be aware of any unusual or inappropriate behavior by personnel accessing systems and report any unauthorized access, sharing of passwords, or other questionable security procedures.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "4180526d"
+  },
+  {
+    "type": "privacy",
+    "requirement": "The contractor must comply with FAR 52.224-1 Privacy Act Notification, 52.224-2 Privacy Act, 52.224-3 Privacy Training \u2013 Alternate I, and HSAR Clauses related to limiting access to Privacy Act and other sensitive information.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "4180526d"
+  },
+  {
+    "type": "security",
+    "requirement": "Contractor personnel must not access or handle Privacy Act information outside of a government facility, network, or equipment.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "cb9ada29"
+  },
+  {
+    "type": "security",
+    "requirement": "The Contractor shall perform all tasks on authorized Government networks, using Government-furnished IT and other equipment and/or Workplace as a Service (WaaS) if WaaS is authorized by the statement of work.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "66c9eb6f"
+  },
+  {
+    "type": "security",
+    "requirement": "Government information shall remain within the confines of authorized Government networks at all times.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "66c9eb6f"
+  },
+  {
+    "type": "security",
+    "requirement": "Except where telework is specifically authorized within this contract, the Contractor shall perform all tasks described in this document at authorized Government facilities; the Contractor is prohibited from performing these tasks at or removing Government-furnished information to any other facility; and Government information shall remain within the confines of authorized Government facilities at all times.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "66c9eb6f"
+  },
+  {
+    "type": "security",
+    "requirement": "Contractors may only access classified materials on government furnished equipment in authorized government owned facilities regardless of telework authorizations.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "66c9eb6f"
+  },
+  {
+    "type": "security",
+    "requirement": "The Contractor (and any Subcontractor) is required to abide by Government and Agency guidance for protecting sensitive and proprietary information.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "66c9eb6f"
+  },
+  {
+    "type": "separation",
+    "requirement": "Contractor shall complete a separation checklist before any employee or Subcontractor employee terminates working on the contract to verify return of government equipment, disposal of sensitive PII, and termination of access.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "33d7b963"
+  },
+  {
+    "type": "notification",
+    "requirement": "Contractor shall notify the Contracting Officer's Representative (COR) within 24 hours in the event of adverse job actions resulting in the dismissal of an employee or Subcontractor employee.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "33d7b963"
+  },
+  {
+    "type": "separation",
+    "requirement": "Contractors shall assist ICE with completing the ICE Form 50-005/Contractor Employee Separation Clearance Checklist by returning all Government-furnished property and terminating access to accounts and systems.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "33d7b963"
+  },
+  {
+    "type": "deliverables",
+    "requirement": "The contractor must deliver sufficient technical documentation with all data deliverables to permit the agency to use the data.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "31f34b92"
+  },
+  {
+    "type": "ownership",
+    "requirement": "The Government Agency owns the rights to all electronic information (electronic data, electronic information systems or electronic databases) and all supporting documentation and associated metadata created as part of this contract.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "31f34b92"
+  },
+  {
+    "type": "ownership",
+    "requirement": "All deliverables (including all data and records) under the contract are the property of the U.S. Government and are considered federal records, for which the Agency shall have unlimited rights to use, dispose of, or disclose such data contained therein.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "31f34b92"
+  },
+  {
+    "type": "personnel",
+    "requirement": "The Contractor shall assign or procure a Privacy Lead for IT system builds or substantial development or changes that may require privacy documentation.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "d909298c"
+  },
+  {
+    "type": "personnel",
+    "requirement": "The Privacy Lead shall be responsible for providing adequate support to DHS to ensure DHS can complete any required PTA, PIA, SORN, or other supporting documentation to support privacy compliance.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "d909298c"
+  },
+  {
+    "type": "personnel",
+    "requirement": "The Privacy Lead must have excellent writing skills, the ability to explain technology clearly for a non-technical audience, and the ability to synthesize information from a variety of sources.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "d909298c"
+  },
+  {
+    "type": "personnel",
+    "requirement": "The Privacy Lead must have excellent verbal communication and organizational skills.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "d909298c"
+  },
+  {
+    "type": "personnel",
+    "requirement": "The Privacy Lead must have experience writing PIAs, ideally for DHS.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "d909298c"
+  },
+  {
+    "type": "personnel",
+    "requirement": "The Privacy Lead must be knowledgeable about the Privacy Act of 1974 and the E-Government Act of 2002.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "d909298c"
+  },
+  {
+    "type": "personnel",
+    "requirement": "The Privacy Lead must be able to work well with others.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "d909298c"
+  },
+  {
+    "type": "privacy",
+    "requirement": "Contractor must coordinate with ICE Privacy POC to ensure privacy concerns are proactively reviewed and complete any required privacy documentation.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "400f24f7"
+  },
+  {
+    "type": "documentation",
+    "requirement": "Contractor must ensure privacy documentation is kept on schedule, answers are thorough and complete, records management requirements are met, and questions are answered in a timely fashion.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "400f24f7"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must handle and safeguard Controlled Unclassified Information (CUI) in accordance with applicable laws, regulations, and policies.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "e83a075b"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must protect Sensitive Security Information (SSI) as defined in 49 CFR part 1520 and supplementary DHS/TSA guidance.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "625688ac"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must protect Homeland Security Agreement Information received pursuant to agreements with state, local, tribal, territorial, or private sector partners.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "625688ac"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must protect Homeland Security Enforcement Information related to DHS immigration, customs, and other civil and criminal enforcement missions.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "625688ac"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must protect International Agreement Information received from the Department of Homeland Security as required by information sharing agreements or arrangements with foreign entities.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "46eb0322"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must protect Information Systems Vulnerability Information (ISVI) received from the Department of Homeland Security, including information technology systems data and information regarding developing or current technology that could compromise security objectives.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "46eb0322"
+  },
+  {
+    "type": "security",
+    "requirement": "Protect Operations Security Information that could be exploited by adversaries to identify DHS intentions, capabilities, operations, and vulnerabilities.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "6f8ad56f"
+  },
+  {
+    "type": "security",
+    "requirement": "Protect Personnel Security Information that could result in physical risk to DHS personnel or individuals DHS is responsible for protecting.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "6f8ad56f"
+  },
+  {
+    "type": "security",
+    "requirement": "Protect Physical Security Information illustrating or disclosing facility infrastructure or security vulnerabilities related to protection of federal buildings, grounds, or property.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "6f8ad56f"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must handle Personally Identifiable Information (PII) and Sensitive Personally Identifiable Information (SPII) in accordance with DHS privacy requirements.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "b4888492"
+  },
+  {
+    "type": "security",
+    "requirement": "The Contractor's employees shall be fingerprinted or subject to other investigations as required for security or other reasons, including the conduct of background investigations to determine suitability.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "7a94e800"
+  },
+  {
+    "type": "security",
+    "requirement": "All Contractor employees requiring recurring access to government facilities or access to CUI or information resources are required to have a favorably adjudicated background investigation prior to commencing work on this contract unless this requirement is waived under Departmental procedures.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "7a94e800"
+  },
+  {
+    "type": "security",
+    "requirement": "The Contracting Officer may require the Contractor to prohibit individuals from working on the contract if the Government deems their initial or continued employment contrary to the public interest for any reason, including, but not limited to, carelessness, insubordination, incompetence, or security concerns.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "7a94e800"
+  },
+  {
+    "type": "security",
+    "requirement": "Work under this contract may involve access to CUI. The Contractor shall access and use CUI only for the purpose of furnishing advice or assistance directly to the Government in support of the Government's activities, and shall not disclose, orally or in writing, CUI for any other purpose to any",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "7a94e800"
+  },
+  {
+    "type": "security",
+    "requirement": "The Contractor shall ensure that employees authorized to access Controlled Unclassified Information (CUI) receive initial and refresher training concerning the protection and disclosure of CUI.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a58e8573"
+  },
+  {
+    "type": "security",
+    "requirement": "The Contractor shall include the CUI clause in all subcontracts where the subcontractor may have access to government facilities, CUI, or information resources.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a58e8573"
+  },
+  {
+    "type": "security",
+    "requirement": "Before receiving access to information resources, the Contractor's employees must complete a security briefing, additional training for specific CUI categories if identified in the contract, and any nondisclosure agreement furnished by DHS.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a58e8573"
+  },
+  {
+    "type": "security",
+    "requirement": "The Contractor shall have access only to those areas of DHS information resources explicitly stated in the contract.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a58e8573"
+  },
+  {
+    "type": "security",
+    "requirement": "Contractor personnel are only allowed to access information resources expressly authorized by the contract or approved in writing by the COR.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "69094093"
+  },
+  {
+    "type": "security",
+    "requirement": "Contractor access to DHS networks from a remote location is a temporary privilege, not a right or guarantee.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "69094093"
+  },
+  {
+    "type": "security",
+    "requirement": "Contractor access will be terminated for unauthorized use.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "69094093"
+  },
+  {
+    "type": "security",
+    "requirement": "The Contractor agrees to hold DHS harmless from any unauthorized use and agrees not to request additional time or money for delays resulting from unauthorized use or access.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "69094093"
+  },
+  {
+    "type": "security",
+    "requirement": "Non-U.S. citizens shall not be authorized to access or assist in the development, operation, management, or maintenance of Department IT systems under the contract, unless a waiver has been granted.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "eff038a8"
+  },
+  {
+    "type": "security",
+    "requirement": "Contractors must provide adequate security protections commensurate with the risk resulting from the unauthorized access, use, disclosure, disruption, modification, or destruction of information.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "eff038a8"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must ensure unauthorized access, use, disclosure, disruption, modification, or destruction of information is prevented.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "39feb6f7"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must ensure information hosted on behalf of an agency and information systems and applications used by the agency operate effectively and provide appropriate confidentiality, integrity, and availability protections through the application of cost-effective security controls.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "39feb6f7"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must handle Controlled Unclassified Information (CUI) using safeguarding or dissemination controls as required by law, regulation, or Government-wide policy.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "39feb6f7"
+  },
+  {
+    "type": "security",
+    "requirement": "Comply with regulations and guidance for handling Protected Critical Infrastructure Information (PCII)",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "0245eefe"
+  },
+  {
+    "type": "security",
+    "requirement": "Comply with regulations and guidance for handling Sensitive Security Information (SSI)",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "0245eefe"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must protect Homeland Security Agreement Information received pursuant to an agreement with State, local, Tribal, territorial, or private sector partners.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "390132ee"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must protect Homeland Security Enforcement Information, which is unclassified information of a sensitive nature lawfully created, possessed, or transmitted by the Department of Homeland Security in furtherance of its immigration, customs, and other civil and criminal enforcement missions.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "390132ee"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must protect International Agreement Information received by the Department of Homeland Security that is required to be protected by an information sharing agreement or arrangement with a foreign government, international organization, or other entity.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "390132ee"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must protect Information Systems Vulnerability Information (ISVI).",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "390132ee"
+  },
+  {
+    "type": "security",
+    "requirement": "Protect Department of Homeland Security information technology (IT) systems data revealing infrastructure, applications, networking details, interconnections, and mission/business use.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "15309f98"
+  },
+  {
+    "type": "security",
+    "requirement": "Protect information regarding developing or current technology that could hinder objectives, compromise advantages, cause denial of service, or enable cloning/counterfeiting systems.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "15309f98"
+  },
+  {
+    "type": "security",
+    "requirement": "Protect Department of Homeland Security information that could be exploited to identify intentions, capabilities, operations, and vulnerabilities threatening operational security.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "15309f98"
+  },
+  {
+    "type": "security",
+    "requirement": "Protect information that could result in physical risk to Department of Homeland Security personnel or individuals the Department is responsible for protecting.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "15309f98"
+  },
+  {
+    "type": "security",
+    "requirement": "Protect Physical Security Information such as threat assessments, system security plans, contingency plans, risk management plans, business impact analysis studies, and certification and accreditation documentation related to Federal buildings, grounds, or property.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "78b96b48"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must handle Personally Identifiable Information (PII) and Sensitive Personally Identifiable Information (SPII) in accordance with DHS privacy requirements.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "48e0dd09"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must properly handle sensitive personally identifiable information (SPII) and personal identifiable information (PII).",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "2c308434"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must properly handle federal information and operate federal information systems.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "2c308434"
+  },
+  {
+    "type": "security",
+    "requirement": "Protect information and information systems from unauthorized access, use, disclosure, disruption, modification, or destruction to provide integrity, confidentiality, and availability.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "e9a082d6"
+  },
+  {
+    "type": "security",
+    "requirement": "Guard against improper information modification or destruction, and ensure information nonrepudiation and authenticity.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "e9a082d6"
+  },
+  {
+    "type": "security",
+    "requirement": "Preserve authorized restrictions on access and disclosure, including means for protecting personal privacy and proprietary information.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "e9a082d6"
+  },
+  {
+    "type": "security",
+    "requirement": "Ensure timely and reliable access to and use of information.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "e9a082d6"
+  },
+  {
+    "type": "security",
+    "requirement": "Contractors and subcontractors must provide adequate security to protect Controlled Unclassified Information (CUI) from unauthorized access and disclosure, including compliance with DHS policies and procedures.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "853c785a"
+  },
+  {
+    "type": "data",
+    "requirement": "The Contractor shall not use or redistribute any CUI handled, collected, processed, stored, or transmitted by the Contractor except as specified in the contract.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "853c785a"
+  },
+  {
+    "type": "data",
+    "requirement": "The Contractor shall not maintain Sensitive Personally Identifiable Information (SPII) in its invoicing, billing, and other recordkeeping systems maintained to support financial or other administrative functions.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "853c785a"
+  },
+  {
+    "type": "data",
+    "requirement": "Any government data provided, developed, or obtained under the contract, or otherwise under the control of the Contractor, shall not become part of the bankruptcy estate in the event a Contractor and/or subcontractor enters bankruptcy proceedings.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "853c785a"
+  },
+  {
+    "type": "security",
+    "requirement": "Contractors and subcontractors shall report all known or suspected incidents to the Component Security Operations Center (SOC) or DHS Enterprise SOC.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "91fab31d"
+  },
+  {
+    "type": "security",
+    "requirement": "Incidents involving PII or SPII shall be reported within 1 hour of discovery. All other incidents shall be reported within 8 hours of discovery.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "91fab31d"
+  },
+  {
+    "type": "security",
+    "requirement": "CUI transmitted via email shall be protected by encryption or transmitted within secure communications systems.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "ba4fc561"
+  },
+  {
+    "type": "security",
+    "requirement": "CUI shall be transmitted using a FIPS 140-2/140-3 Security Requirements for Cryptographic Modules validated cryptographic module identified on https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "ba4fc561"
+  },
+  {
+    "type": "security",
+    "requirement": "When using regular email channels, Contractors and subcontractors shall not include any CUI in the subject or body of any email.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "ba4fc561"
+  },
+  {
+    "type": "security",
+    "requirement": "The CUI shall be included as a password-protected attachment with the password provided under separate cover, including as a separate email.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "ba4fc561"
+  },
+  {
+    "type": "security",
+    "requirement": "Recipients of CUI information will comply with any email restrictions imposed by the originator.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "ba4fc561"
+  },
+  {
+    "type": "compliance",
+    "requirement": "An incident shall not, by itself, be interpreted as evidence that the Contractor or Subcontractor has failed to provide adequate information security safeguards for CUI or has otherwise failed to meet the requirements of the contract.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "ba4fc561"
+  },
+  {
+    "type": "security",
+    "requirement": "If an incident involves PII or SPII, provide specific data elements related to the incident within 24 hours of initial report.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "983c3b29"
+  },
+  {
+    "type": "reporting",
+    "requirement": "Follow incident reporting guidelines in Attachment F, Incident Response, to DHS Policy Directive 4300A Information Technology System Security Program, Sensitive Systems.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "983c3b29"
+  },
+  {
+    "type": "access",
+    "requirement": "The Contractor shall provide full access and cooperation for all activities determined by the Government to be required to ensure an effective incident response, including providing all requested images, log files, and event information to facilitate rapid resolution of incidents.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "ef41ec04"
+  },
+  {
+    "type": "incident response",
+    "requirement": "Incident response activities determined to be required by the Government may include, but are not limited to, the following: (i) Inspections; (ii) Investigations; (iii) Forensic reviews; (iv) Data analyses and processing; and (v) Revocation of the Authority to Operate (ATO), if applicable.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "ef41ec04"
+  },
+  {
+    "type": "data preservation",
+    "requirement": "The Contractor shall immediately preserve and protect images of known affected information systems and all available monitoring/packet capture data. The monitoring/packet capture data shall be retained for at least 180 days from submission of the incident report to allow DHS to request the media or decline interest.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "ef41ec04"
+  },
+  {
+    "type": "third-party",
+    "requirement": "The Government, at its sole discretion, may obtain assistance from other Federal agencies and/or third-party firms to aid in incident response activities.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "ef41ec04"
+  },
+  {
+    "type": "security",
+    "requirement": "Upon contract conclusion, the Contractor shall return all Controlled Unclassified Information (CUI) to DHS and/or destroy it physically and/or logically as identified in the contract, unless stated otherwise.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "dba4f02a"
+  },
+  {
+    "type": "security",
+    "requirement": "Destruction of CUI shall conform to the guidelines for media sanitization contained in NIST SP 800-88, Guidelines for Media Sanitization.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "dba4f02a"
+  },
+  {
+    "type": "reporting",
+    "requirement": "The Contractor shall certify and confirm the sanitization of all government and government-activity related files and information.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "dba4f02a"
+  },
+  {
+    "type": "reporting",
+    "requirement": "The Contractor shall submit the sanitization certification to the Contracting Officer's Representative (COR) and Contracting Officer following the template provided in NIST SP 800-88, Appendix G.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "dba4f02a"
+  },
+  {
+    "type": "reporting",
+    "requirement": "Incident reporting required by this clause does not rescind the Contractor's responsibility for other incident reporting pertaining to its unclassified information systems under other clauses, statutory or regulatory requirements, or other U.S. Government requirements.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "dba4f02a"
+  },
+  {
+    "type": "subcontracting",
+    "requirement": "The Contractor shall insert this clause in all subcontracts and require subcontractors to include this clause in all lower tier subcontracts when subcontractor employees will have access to CUI; CUI will be collected or maintained on behalf of the agency by a subcontractor; or a subcontractor information system(s) will be used to process, store, or transmit CUI.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "c37c1e26"
+  },
+  {
+    "type": "security",
+    "requirement": "The Contractor shall not collect, process, store, or transmit CUI within a Federal information system until an ATO has been granted by the Component or Headquarters CIO, or designee.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "c37c1e26"
+  },
+  {
+    "type": "security",
+    "requirement": "An ATO is granted at the sole discretion of the Government and can be revoked at any time.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "c37c1e26"
+  },
+  {
+    "type": "security",
+    "requirement": "Contractor receipt of an ATO does not create any contractual right of access or entitlement.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "c37c1e26"
+  },
+  {
+    "type": "security",
+    "requirement": "The Government's grant of an ATO does not alleviate the Contractor's responsibility to ensure the information system controls are implemented and operating effectively.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "c37c1e26"
+  },
+  {
+    "type": "security",
+    "requirement": "Complete the Security Authorization process according to DHS Policy Directive 4300A Information Technology System Security Program, Sensitive Systems and the Security Authorization Process Guide.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "16d12c52"
+  },
+  {
+    "type": "security",
+    "requirement": "Develop the Security Authorization package using the government-provided Security Requirements Traceability Matrix and Security Authorization templates.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "16d12c52"
+  },
+  {
+    "type": "security",
+    "requirement": "The Security Authorization package consists of the following: Security Plan, Contingency Plan, Contingency Plan Test Results, Configuration Management Plan, Security Assessment Plan, Security Assessment Report, and Authorization to Operate Letter.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "16d12c52"
+  },
+  {
+    "type": "security",
+    "requirement": "Contractors shall have an independent third party validate the security and privacy controls in place for the information system(s).",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "be546dce"
+  },
+  {
+    "type": "security",
+    "requirement": "The Contractor shall address all deficiencies before submitting the SA package to the COR for review.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "be546dce"
+  },
+  {
+    "type": "security",
+    "requirement": "Unless otherwise specified in the ATO letter, the Contractor shall renew the ATO every 3 years.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "be546dce"
+  },
+  {
+    "type": "security",
+    "requirement": "The Contractor is required to update its SA package as part of the ATO renewal process for review and verification of security controls.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "be546dce"
+  },
+  {
+    "type": "submission",
+    "requirement": "The updated SA package shall be submitted for review and approval by the Component or Headquarters CIO, or designee, at least 90 days before the ATO expiration date.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "be546dce"
+  },
+  {
+    "type": "security",
+    "requirement": "The Contractor shall afford DHS, the Office of the Inspector General, other government organizations, and Contractors working in support of the Government access to the Contractor's facilities, installations, operations, documentation, databases, networks, systems, and personnel used in the performance of this contract.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "b76aaa25"
+  },
+  {
+    "type": "security",
+    "requirement": "The Contractor shall, through the Contracting Officer and COR, contact the Component or Headquarters CIO, or designee, to coordinate and participate in review and inspection activity by government organizations external to DHS.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "b76aaa25"
+  },
+  {
+    "type": "security",
+    "requirement": "Access shall be provided, to the extent necessary as determined by the Government (including providing all requested images), for the Government to carry out a program of inspection, investigation, and audit to safeguard against threats and hazards to the integrity, availability, and confidentiality of government data or the function of computer systems used in performance of this contract and to preserve evidence of computer crime.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "b76aaa25"
+  },
+  {
+    "type": "reporting",
+    "requirement": "Contractors operating information systems on behalf of the Government shall comply with Federal reporting and information system continuous monitoring requirements.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "41cfe481"
+  },
+  {
+    "type": "monitoring",
+    "requirement": "The Contractor shall provide the Government with all information to fully satisfy Federal reporting requirements for information systems.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "41cfe481"
+  },
+  {
+    "type": "responsiveness",
+    "requirement": "The Contractor shall provide the COR with requested information within 3 business days of receipt of the request.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "41cfe481"
+  },
+  {
+    "type": "data_retention",
+    "requirement": "Unless otherwise specified in the contract, monthly continuous monitoring data shall be stored at the Contractor's location for a period not less than 1 year from the date the data are created.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "41cfe481"
+  },
+  {
+    "type": "security",
+    "requirement": "The Government may elect to perform information system continuous monitoring and IT security scanning of information systems from government tools and infrastructure.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "41cfe481"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must handle and protect Personally Identifiable Information (PII) and Sensitive Personally Identifiable Information (SPII) in accordance with the provided definitions and guidelines.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "61de31c5"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must handle sensitive personally identifiable information (SPII) properly to prevent increased risk of harm to individuals.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "61ee7315"
+  },
+  {
+    "type": "security",
+    "requirement": "Notify individuals whose PII or SPII was under the contractor's control or resided in their system at the time of an incident, within 5 business days of being directed by the Contracting Officer or as required by law.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "d55ca0a4"
+  },
+  {
+    "type": "security",
+    "requirement": "Coordinate the method and content of any notification to individuals with the Contracting Officer and obtain prior written approval.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "d55ca0a4"
+  },
+  {
+    "type": "security",
+    "requirement": "Determinations related to notifications to affected individuals, federal agencies, and related services will be made in writing by the Contracting Officer.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "d55ca0a4"
+  },
+  {
+    "type": "security",
+    "requirement": "Notification method may include letters, electronic means, or public notice as approved by the government, and may require address verification/location services.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "d55ca0a4"
+  },
+  {
+    "type": "security",
+    "requirement": "Provide notification to affected individuals in case of a data breach involving personally identifiable information (PII) or sensitive personally identifiable information (SPII)",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "d4240a77"
+  },
+  {
+    "type": "security",
+    "requirement": "Provide credit monitoring services to individuals whose PII or SPII was compromised for at least 18 months after the incident",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "d4240a77"
+  },
+  {
+    "type": "security",
+    "requirement": "Establish a dedicated call center to assist individuals affected by a data breach",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "d4240a77"
+  },
+  {
+    "type": "sla",
+    "requirement": "Provide a dedicated telephone number to contact customer service within a fixed period",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "8de01c15"
+  },
+  {
+    "type": "deliverable",
+    "requirement": "Provide weekly reports on call center volume, issue escalation, and other key metrics",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "8de01c15"
+  },
+  {
+    "type": "sla",
+    "requirement": "Escalate calls that cannot be handled by call center staff to call center management or DHS",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "8de01c15"
+  },
+  {
+    "type": "deliverable",
+    "requirement": "Provide customized Frequently Asked Questions approved by the Contracting Officer",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "8de01c15"
+  },
+  {
+    "type": "sla",
+    "requirement": "Provide information for registrants to contact customer service and fraud resolution representatives",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "8de01c15"
+  },
+  {
+    "type": "security",
+    "requirement": "The Contractor shall provide information technology security awareness training to its employees",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "8de01c15"
+  },
+  {
+    "type": "security",
+    "requirement": "Contractor employees must take an annual Information Technology Security Awareness Training course before accessing sensitive information under the contract.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "10b3020d"
+  },
+  {
+    "type": "security",
+    "requirement": "Contractor and subcontractor employees must complete security training within 30 days of contract award and annually by October 31st.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "4a594779"
+  },
+  {
+    "type": "compliance",
+    "requirement": "Contractor must maintain copies of training certificates for all employees as a record of compliance.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "4a594779"
+  },
+  {
+    "type": "deliverable",
+    "requirement": "Contractor must provide initial training certificates for each employee to the COR within 30 days after contract award.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "4a594779"
+  },
+  {
+    "type": "deliverable",
+    "requirement": "Contractor must submit subsequent annual training certificates to the COR via email by October 31st each year.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "4a594779"
+  },
+  {
+    "type": "security",
+    "requirement": "The DHS Rules of Behavior must be signed before accessing DHS systems and sensitive information.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "2bc20949"
+  },
+  {
+    "type": "security",
+    "requirement": "The Contractor shall maintain signed copies of the DHS Rules of Behavior for all Contractor and subcontractor employees as a record of compliance.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "2bc20949"
+  },
+  {
+    "type": "security",
+    "requirement": "The Contractor shall e-mail copies of the signed DHS Rules of Behavior to the COR not later than thirty (30) days after contract award for each employee.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "2bc20949"
+  },
+  {
+    "type": "security",
+    "requirement": "The DHS Rules of Behavior will be reviewed annually, and the COR will provide notification when a review is required.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "2bc20949"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must ensure that contractor employees who have access to systems of records, handle personally identifiable information, or design/operate systems of records complete initial privacy training and annual privacy training thereafter.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "5dd04264"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must provide documentation of completion of privacy training to the Contracting Officer upon request.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "7e197477"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must not allow any employee access to a system of records or handle personally identifiable information unless the employee has completed privacy training.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "7e197477"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must include the substance of this privacy training clause in all subcontracts where subcontractor employees will have access to systems of records or personally identifiable information.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "7e197477"
+  },
+  {
+    "type": "security",
+    "requirement": "All hardware, software, and services provided must comply with DHS 4300A DHS Sensitive System Policy and DHS 4300A Sensitive Systems Handbook.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "57bc16ba"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must afford ICE access to facilities, installations, operations, documentation, databases and personnel for security reviews and audits.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "57bc16ba"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must protect Sensitive Information, including Protected Critical Infrastructure Information (PCII), in accordance with the Critical Infrastructure Information Act of 2002, its implementing regulations, the PCII Procedures Manual, and DHS guidance.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "ae714e0f"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must handle Sensitive Security Information (SSI) as defined in Title 49, Code of Federal Regulations, Part 1520, and any supplementary guidance from the Department of Homeland Security.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "288843a5"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must handle information designated as 'For Official Use Only' in accordance with procedures to protect privacy and national/homeland security interests.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "288843a5"
+  },
+  {
+    "type": "security",
+    "requirement": "The contractor must handle any information designated as 'sensitive' or subject to other safeguards in accordance with homeland security information handling procedures.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "288843a5"
+  },
+  {
+    "type": "security",
+    "requirement": "Information Technology Resources include computer equipment, networking equipment, telecommunications equipment, cabling, drives, software, websites, and anything else related to IT.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "288843a5"
+  },
+  {
+    "type": "security",
+    "requirement": "Contractor employees must complete security forms and background investigations as required by the contracting officer.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a3caad47"
+  },
+  {
+    "type": "security",
+    "requirement": "The contracting officer may prohibit individuals from working on the contract due to security concerns or other reasons.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a3caad47"
+  },
+  {
+    "type": "security",
+    "requirement": "The Contractor shall not disclose sensitive information without authorization from the Contracting Officer.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "e915775d"
+  },
+  {
+    "type": "security",
+    "requirement": "The Contractor shall ensure that employees authorized access to sensitive information receive training on protecting and disclosing sensitive information during and after contract performance.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "e915775d"
+  },
+  {
+    "type": "security",
+    "requirement": "The Contractor shall include a clause requiring protection of sensitive information in all subcontracts where the subcontractor may have access to government facilities, sensitive information, or resources.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "e915775d"
+  },
+  {
+    "type": "security",
+    "requirement": "Before receiving access to IT resources, the individual must receive a security briefing, complete any required non-disclosure agreements, and be arranged by the Contracting Officer's Representative.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "e915775d"
+  },
+  {
+    "type": "security",
+    "requirement": "The Contractor shall have access only to those areas of DHS information technology resources explicitly stated in this contract or approved by the COR in writing as necessary for performance of the work under this contract.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "06530f3b"
+  },
+  {
+    "type": "security",
+    "requirement": "Any attempts by Contractor personnel to gain access to any information technology resources not expressly authorized by the statement of work, other terms and conditions in this contract, or as approved in writing by the COR, is strictly prohibited.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "06530f3b"
+  },
+  {
+    "type": "access",
+    "requirement": "Contractor access to DHS networks from a remote location is a temporary privilege for mutual convenience while the Contractor performs business for DHS Component.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "06530f3b"
+  },
+  {
+    "type": "security",
+    "requirement": "Contractor access will be terminated for unauthorized use.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "06530f3b"
+  },
+  {
+    "type": "liability",
+    "requirement": "The Contractor agrees to hold and save DHS harmless from any unauthorized use and agrees not to request additional time or money under the contract for any delays resulting from unauthorized use or access.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "06530f3b"
+  },
+  {
+    "type": "security",
+    "requirement": "Non-U.S. citizens shall not be authorized to access or assist in the development, operation, management or maintenance of Department IT systems under the contract, unless a waiver has been granted by the Head of the Component or designee, with the concurrence of both the Department's Chief Security Officer (CSO) and the Chief Information Officer (CIO) or their designees.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "55584e71"
+  },
+  {
+    "type": "submission",
+    "requirement": "Any additions or deletions of non-U.S. citizens after contract award shall also be reported to the CO.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "55584e71"
+  },
+  {
+    "type": "accessibility",
+    "requirement": "Comply with Section 508 accessibility requirements",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "5c8e0ac5"
+  },
+  {
+    "type": "accessibility",
+    "requirement": "All products, platforms and services delivered must conform to the revised Section 508 accessibility standards for information and communications technology",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "9f59ae33"
+  },
+  {
+    "type": "accessibility",
+    "requirement": "When providing installation, configuration or integration services for ICT, the Contractor shall not reduce the original ICT item's level of Section 508 conformance prior to the services being performed.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "c423a048"
+  },
+  {
+    "type": "accessibility",
+    "requirement": "When providing maintenance upgrades, substitutions, and replacements to ICT, the contractor shall not reduce the original ICT's level of Section 508 conformance prior to upgrade, substitution or replacement.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "c423a048"
+  },
+  {
+    "type": "accessibility",
+    "requirement": "When developing or modifying ICT, the Contractor is required to validate ICT deliverables for conformance to the applicable Section 508 requirements.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "c423a048"
+  },
+  {
+    "type": "accessibility",
+    "requirement": "When modifying, installing, configuring or integrating commercially available or government-owned ICT, the Contractor shall not reduce the original ICT Item's level of Section 508 conformance.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "c423a048"
+  },
+  {
+    "type": "accessibility",
+    "requirement": "When developing or modifying hardware components of ICT, including closed systems, the Contractor shall demonstrate conformance to the applicable Section 508 standards and use a test process capable of validating conformance to all applicable Section 508 standards for hardware functionality delivered.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "8f6149a4"
+  },
+  {
+    "type": "deliverable",
+    "requirement": "The Contractor shall provide a detailed Section 508 Conformance Test Plan when developing or modifying ICT pursuant to this contract.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "8f6149a4"
+  },
+  {
+    "type": "deliverable",
+    "requirement": "The Contractor shall provide test results in accordance with the Section 508 Requirements for Technology Services provided in this solicitation when developing or modifying ICT pursuant to this contract.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "8f6149a4"
+  },
+  {
+    "type": "accessibility",
+    "requirement": "Provide an Accessibility Conformance Report (ACR) for each ICT item offered, documenting conformance with Section 508 standards using the Voluntary Product Accessibility Template Version 2.0 508",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "7136ab68"
+  },
+  {
+    "type": "duration",
+    "requirement": "The Task Order shall consist of a 12-month Base Year and four (4) 12-month Option Years",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "356a7355"
+  },
+  {
+    "type": "contract",
+    "requirement": "The VETS2 Contract Holder shall possess a VETS2 contract with a Period of Performance sufficient to provide the Government with a continuous five (5) year period of performance for the Task Order",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "356a7355"
+  },
+  {
+    "type": "notification",
+    "requirement": "The VETS2 Contract Holder is required to immediately notify the Contracting Officer (CO), in writing, if at any time the VETS2 Contract, upon which the Task Order is based, is no longer an active and valid contract",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "356a7355"
+  },
+  {
+    "type": "process",
+    "requirement": "The Government intends to conduct this procurement through a multi-phased submission and evaluation process.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "51ba92da"
+  },
+  {
+    "type": "deliverable",
+    "requirement": "Quoters must submit Tab C, Phase II - Factor 2: Management Approach and Staffing Plan.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "1c3ed89d"
+  },
+  {
+    "type": "pricing",
+    "requirement": "Quoters are strongly encouraged to propose discounted pricing from established prices in its VETS2 Contract.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "eefce2fe"
+  },
+  {
+    "type": "pricing",
+    "requirement": "The Government will not establish a Task Order where the basis of pricing uses hourly rates exceeding the pricing listed on its VETS2 Contract.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "eefce2fe"
+  },
+  {
+    "type": "pricing",
+    "requirement": "All rates shall reflect total compensation for the services in accordance with the Quoter's VETS2 contract.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "eefce2fe"
+  },
+  {
+    "type": "pricing",
+    "requirement": "The Task Order is anticipated to be awarded as an FFP order with cost reimbursable line items.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "eefce2fe"
+  },
+  {
+    "type": "travel",
+    "requirement": "Allowable travel costs will be reimbursed in accordance with Federal Travel Regulations (FTR).",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "eefce2fe"
+  },
+  {
+    "type": "pricing",
+    "requirement": "Provide supporting information for proposed prices if requested by the government to determine fair and reasonable pricing",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "a56a20e3"
+  },
+  {
+    "type": "experience",
+    "requirement": "Demonstrate relevant corporate experience comparable to the requirement",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "abcd628c"
+  },
+  {
+    "type": "approach",
+    "requirement": "Propose a management approach that increases confidence in successful performance",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "abcd628c"
+  },
+  {
+    "type": "staffing",
+    "requirement": "Propose a staffing plan that increases confidence in successful performance",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "abcd628c"
+  },
+  {
+    "type": "pricing",
+    "requirement": "The total evaluated price will include the total price for all options added to the total price for the basic requirement",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "44febd50"
+  },
+  {
+    "type": "pricing",
+    "requirement": "The Government will evaluate price reasonableness by comparing quoted prices and using FAR 15.404-1 proposal analysis techniques",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "44febd50"
+  },
+  {
+    "type": "pricing",
+    "requirement": "Prices for the base and option periods, including the 6-month option under FAR 52.217-8, will be evaluated to ensure they are fair and reasonable.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "809756f7"
+  },
+  {
+    "type": "pricing",
+    "requirement": "If the Government exercises the Option to Extend Services under FAR 52.217-8, the pricing will be pursuant to the rates specified for the preceding performance period.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "809756f7"
+  },
+  {
+    "type": "evaluation",
+    "requirement": "Award may be made to other than the lowest priced quote if the government determines a price premium is justified by superior technical merit",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "0a28ad2b"
+  },
+  {
+    "type": "evaluation",
+    "requirement": "Award may be made to other than the highest technically rated quote if the price premium is not justified by the degree of technical merit",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "0a28ad2b"
+  },
+  {
+    "type": "award",
+    "requirement": "A single Task Order will be awarded to the quoter that presents the overall best value to the Government utilizing a trade-off approach considering non-price and price factors.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "bfcc191b"
   }
 ]

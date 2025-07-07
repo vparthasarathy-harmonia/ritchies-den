@@ -1,44 +1,656 @@
 [
   {
     "type": "submission",
-    "requirement": "Proposals must be submitted according to the instructions provided in the solicitation.",
+    "requirement": "Follow the submission instructions provided in the solicitation",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "992b1f8f"
+    "chunk_id": "09a6100a"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Comply with any formatting requirements specified in the solicitation",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "09a6100a"
+  },
+  {
+    "type": "pagelimit",
+    "requirement": "Adhere to any page limits imposed by the solicitation",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "09a6100a"
   },
   {
     "type": "submission",
     "requirement": "Proposals must be submitted in response to the solicitation",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "8120c140"
+    "chunk_id": "c756ba11"
   },
   {
     "type": "submission",
-    "requirement": "Contractors must follow proposal submission instructions.",
+    "requirement": "Comply with proposal submission instructions",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "9dab5145"
+    "chunk_id": "8ac27f46"
   },
   {
     "type": "submission",
     "requirement": "Follow proposal submission instructions",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "003458db"
+    "chunk_id": "fde20141"
   },
   {
     "type": "submission",
     "requirement": "Description information for all data assets, information exchanges and data standards, whether adopted or developed, shall be submitted to the Enterprise Data Management Office (EDMO) for review and insertion into the DHS Data Reference Model",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "ac3ab2ee"
+    "chunk_id": "da343bf1"
   },
   {
     "type": "formatting",
     "requirement": "Follow any formatting requirements specified in the solicitation",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "a2a37821"
+    "chunk_id": "38afff8a"
   },
   {
     "type": "submission",
     "requirement": "Follow any submission instructions specified in the solicitation",
     "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
-    "chunk_id": "a2a37821"
+    "chunk_id": "38afff8a"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Proposal must follow formatting requirements",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "b04d14b6"
+  },
+  {
+    "type": "formatting",
+    "requirement": "The Contractor shall develop and provide a Meeting Minutes Report within 5 calendar days after the Kick-Off Presentation Meeting.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "11417ee7"
+  },
+  {
+    "type": "submission",
+    "requirement": "The Contractor shall submit a Project Management Plan within 30 calendar days after start of Task Order performance.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "0284c541"
+  },
+  {
+    "type": "submission",
+    "requirement": "The Contractor shall provide electronic copies of each deliverable via email.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "ab3706e7"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Work Products shall be professionally prepared in terms of format, clarity and readability.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "9e290d46"
+  },
+  {
+    "type": "submission",
+    "requirement": "Work Products shall be transmitted via e-mail and in media mutually agreed upon prior to submission.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "9e290d46"
+  },
+  {
+    "type": "submission",
+    "requirement": "Unless otherwise stated, all deliverables shall be delivered via e-mail not later than 4:00 PM Eastern Time (ET) on the deliverable's due date.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "9e290d46"
+  },
+  {
+    "type": "submission",
+    "requirement": "The Contractor shall notify the COR as soon as it becomes apparent that a scheduled delivery will be late.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a243bab5"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Upon receipt of the Government comments, the Contractor shall have 7 calendar days to incorporate the Government's comments and/or change requests and to resubmit the deliverable in its final form.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a243bab5"
+  },
+  {
+    "type": "submission",
+    "requirement": "It is expected that a minimum of thirteen (13) key personnel will serve in a full-time capacity for the duration of the Task Order or until an equivalent replacement is nominated by the Contractor and accepted by the COR.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "c33bc366"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Proposal must follow specified formatting requirements",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a7e96310"
+  },
+  {
+    "type": "submission",
+    "requirement": "Proposal must be submitted according to specified instructions",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "a7e96310"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Comply with any formatting, submission instructions, or page limits specified in the solicitation",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "7cedba4f"
+  },
+  {
+    "type": "submission",
+    "requirement": "Only complete security packet packages will be accepted by OPR PSD as notified by the COR.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "437ef24f"
+  },
+  {
+    "type": "eligibility",
+    "requirement": "Only U.S. citizens and Legal Permanent Residents are eligible for employment on contracts requiring access to DHS sensitive information unless an exception is granted.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "5c38a7c5"
+  },
+  {
+    "type": "submission",
+    "requirement": "Any unauthorized disclosure of information should be reported to ICE.ADSEC@ice.dhs.gov.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "c5e99659"
+  },
+  {
+    "type": "submission",
+    "requirement": "The Contractor is required to obtain the Contracting Officer's approval prior to engaging in any contractual relationship (Subcontractor) in support of this contract requiring the disclosure of information, documentary material and/or records generated under or relating to this contract.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "66c9eb6f"
+  },
+  {
+    "type": "submission",
+    "requirement": "Proposal must follow formatting and submission instructions.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "400f24f7"
+  },
+  {
+    "type": "submission",
+    "requirement": "Contractors must submit proposals in response to this solicitation.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "dd4ce953"
+  },
+  {
+    "type": "submission",
+    "requirement": "Contractor employees working on this contract must complete such forms as may be necessary",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "04c6cc2f"
+  },
+  {
+    "type": "submission",
+    "requirement": "Completed forms shall be submitted as directed by the Contracting Officer.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "7a94e800"
+  },
+  {
+    "type": "submission",
+    "requirement": "Contractors shall identify in their proposals the names and citizenship of all non-U.S. citizens proposed to work under the contract.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "eff038a8"
+  },
+  {
+    "type": "submission",
+    "requirement": "Proposals must follow specified formatting and submission instructions.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "2c308434"
+  },
+  {
+    "type": "submission",
+    "requirement": "Submit a signed copy of the Security Authorization package, validated by an independent third party, to the COR for review and approval at least 30 days prior to the date of operation of the information system.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "16d12c52"
+  },
+  {
+    "type": "submission",
+    "requirement": "Contractors shall identify in their proposals the names and citizenship of all non-U.S. citizens proposed to work under the contract.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 Attachment 2_Statement of Work_27JUN25_A00001.1751046469174 (1).pdf",
+    "chunk_id": "55584e71"
+  },
+  {
+    "type": "submission",
+    "requirement": "Only quotes submitted by VET2 SDVOSB concerns will be accepted by the government.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "41600209"
+  },
+  {
+    "type": "submission",
+    "requirement": "Respond to this RFQ",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "356a7355"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Responses must be clearly and concisely written, neat, indexed and logically assembled.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "51ba92da"
+  },
+  {
+    "type": "submission",
+    "requirement": "The Government will not be obligated to pay any cost incurred by a contractor in the preparation and submission of a quote in response to this RFQ.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "51ba92da"
+  },
+  {
+    "type": "submission",
+    "requirement": "All correspondence in conjunction with this RFQ shall be directed solely to the Government Contracting Officer and Contract Specialist identified.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "51ba92da"
+  },
+  {
+    "type": "submission",
+    "requirement": "All written submissions shall be submitted electronically via e-mail to the specified POCs.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "4f033b84"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Individual file sizes shall not exceed 5 MB.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "4f033b84"
+  },
+  {
+    "type": "submission",
+    "requirement": "The submission must include the RFQ 70CMSD25Q00000007 in the subject line of the e-mail.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "4f033b84"
+  },
+  {
+    "type": "formatting",
+    "requirement": "See Section 1.3 of this document for formatting requirements.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "4f033b84"
+  },
+  {
+    "type": "submission",
+    "requirement": "The cutoff date for questions is July 2, 2025 at 10:00 AM (EST).",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "4f033b84"
+  },
+  {
+    "type": "submission",
+    "requirement": "Quoters must email all questions to the specified Points of Contact.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "4f033b84"
+  },
+  {
+    "type": "submission",
+    "requirement": "Phase I Submission Due Date is July 11, 2025 at 3:00pm (EST).",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "4f033b84"
+  },
+  {
+    "type": "submission",
+    "requirement": "Phase I written quote submissions must be received by the Points of Contact no later than 3:00 PM (EST) on July 11, 2025.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "4725b076"
+  },
+  {
+    "type": "formatting",
+    "requirement": "The cover letter, title page, table of contents, table of figures, list of tables and glossary of abbreviations & acronyms do not count against page count limitations.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "4725b076"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Quote contents that exceed the stated page limitations will be removed by the Contracting Officer prior to evaluation and will not be considered.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "4725b076"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Text shall be single-spaced, on 8\u00bd\" x 11\" pages, with a minimum one-inch margin all around.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "d7813071"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Pages shall be numbered consecutively.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "d7813071"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Font shall be of a minimum 12-point font size.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "d7813071"
+  },
+  {
+    "type": "formatting",
+    "requirement": "For Attachment #4, Quoters may use no less than size 11-point font.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "d7813071"
+  },
+  {
+    "type": "submission",
+    "requirement": "Quoters shall supply all information in the sequence and format specified.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "d7813071"
+  },
+  {
+    "type": "submission",
+    "requirement": "Any response in which material information requested is not furnished, or where indirect or incomplete answers or information are provided, may be considered non-compliant.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "d7813071"
+  },
+  {
+    "type": "submission",
+    "requirement": "Any requested information placed outside of the designated Evaluation Factor section will not be considered or evaluated under that Factor.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "d7813071"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Include name and address of vendor, name, telephone number & email address of main point-of-contact, name of contract administration office, date of submission, name, title and signature of authorized representative, GSA VETS 2 GWAC Number, company unique identifier number and CAGE code, and validity period of 120 days for the quote.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "0b049837"
+  },
+  {
+    "type": "submission",
+    "requirement": "Complete Attachment 4 - Corporate Experience Worksheet describing 1 to 3 similar contracts/projects completed in the past 3 years with duration of at least 12 months.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "0b049837"
+  },
+  {
+    "type": "submission",
+    "requirement": "Provide supplemental attachment with information for any contracts referenced in Attachment 4.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "0b049837"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Provide customer name, address, telephone number, and email for points of contact like the Contracting Officer and Contracting Officer's Technical Representative or Program Manager, as well as an alternate point of contact.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "1c1010a3"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Provide contract number if applicable.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "1c1010a3"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Provide contract type if applicable.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "1c1010a3"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Provide total contract/project value in dollars and dollar value of work performed to date.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "1c1010a3"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Describe work performed, including scope and responsibilities, and explain relevance to this requirement and how experience demonstrates ability to accomplish tasks in the statement of work.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "1c1010a3"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Detail the extent to which the scope of work for each work experience cited was self-performed, identifying whether prime or subcontractor and explaining approximate portion performed and specific contribution.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "1c1010a3"
+  },
+  {
+    "type": "submission",
+    "requirement": "If a Quoter wishes to submit the Corporate Experience of a subcontractor or teaming partner, the Quoter must submit a letter of commitment to use the proposed firm on the project, signed both by the subcontractor/teaming partner and the Quoter.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "1b84a758"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Include the subcontractor/teaming partner letters of commitment in Volume 1, Tab B.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "1b84a758"
+  },
+  {
+    "type": "formatting",
+    "requirement": "The subcontractor/teaming partner letters of commitment does not count towards the page limit.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "1b84a758"
+  },
+  {
+    "type": "submission",
+    "requirement": "If submitting Corporate Experience as a joint venture, the joint venture must have its own VETS2 contract and be classified as a Service-Disabled Veteran Owned Small Business (SDVOSB).",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "1b84a758"
+  },
+  {
+    "type": "submission",
+    "requirement": "Consistent with the VETS2 GWAC, VETS 2 industry partners are required to perform at least 50 percent of the cost of personnel for master contract performance with their own employees or subcontract employees from a similarly situated entity.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "ffc1448d"
+  },
+  {
+    "type": "submission",
+    "requirement": "Quoters will receive an Advisory Down Select notification via e-mail from the Contracting Officer (CO) after the Government completes evaluation of Phase I.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "4d5ca4d1"
+  },
+  {
+    "type": "submission",
+    "requirement": "The Government intends to provide no more than three (3) Quoters with an advisory notification to proceed (although a lesser or greater number may be selected).",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "4d5ca4d1"
+  },
+  {
+    "type": "submission",
+    "requirement": "Quoters who were not among the most highly rated will be advised that they are unlikely to be viable competitors, along with the general basis for the Government's advisory recommendation.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "4d5ca4d1"
+  },
+  {
+    "type": "submission",
+    "requirement": "The Government does not intend to provide brief explanations or debriefings after the completion of the advisory down select notifications.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "4d5ca4d1"
+  },
+  {
+    "type": "submission",
+    "requirement": "Quoters that receive an advisory notification not to proceed to Phase II, but choose to proceed, shall send an email to the CO no later than 4:30pm (EST) the next business day indicating their intent to participate in Phase II.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "1c3ed89d"
+  },
+  {
+    "type": "submission",
+    "requirement": "Quoter submissions for Phase II will not be accepted from Quoters who have not submitted Phase I quotes by the due date and time stated in this solicitation.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "1c3ed89d"
+  },
+  {
+    "type": "submission",
+    "requirement": "The Government recommends Quoters begin preparation of Phase II quotations only after receipt of the Phase II notification.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "1c3ed89d"
+  },
+  {
+    "type": "formatting",
+    "requirement": "The Management Approach and Staffing Plan shall describe the proposed staffing approach and appropriate labor mix capable of performing the work contained in the SOW.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "39764ca9"
+  },
+  {
+    "type": "formatting",
+    "requirement": "The Quoter's Management Approach and Staffing Plan shall comprehensively address the following: The Quoter's approach to managing and accomplishing performance as outlined in the SOW, including processes for gathering, sharing, and controlling information to meet ICE/HSI objectives.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "39764ca9"
+  },
+  {
+    "type": "formatting",
+    "requirement": "The Quoter's Management Approach and Staffing Plan shall comprehensively address the following: The Quoter's policies for managing personnel and financial resources, including the organizational structure, scheduling, and training of personnel to meet SOW requirements.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "39764ca9"
+  },
+  {
+    "type": "formatting",
+    "requirement": "The Quoter's Management Approach and Staffing Plan shall comprehensively address the following: The Quoter's ability to resolve issues related to SOW requirements, drawing on experience from similar projects, and ensuring effective communication with Subcontractors/Consultants for work distribution and collaboration.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "39764ca9"
+  },
+  {
+    "type": "formatting",
+    "requirement": "The Quoter's Management Approach and Staffing Plan shall comprehensively address the following: The Quoter's Staffing Plan, demonstrating resource allocation, cross-training for peak/emergency situations, and ensuring personnel are equipped to meet SOW tasks.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "39764ca9"
+  },
+  {
+    "type": "formatting",
+    "requirement": "The quote shall provide a clear, concise and complete description of the quoter's understanding of SOW requirements and approach.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "f37e9a5b"
+  },
+  {
+    "type": "submission",
+    "requirement": "Quoters shall provide acknowledgement of all amendments.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "f37e9a5b"
+  },
+  {
+    "type": "submission",
+    "requirement": "Quoters shall respond to provisions/clauses from the RFQ terms and conditions that require the quoter's response.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "f37e9a5b"
+  },
+  {
+    "type": "submission",
+    "requirement": "The quoter shall list all price related assumptions and exceptions under this section.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "f37e9a5b"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Provide a pricing narrative explaining the methodology for pricing estimates",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "b342698f"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Fill in and complete the Attachment 4 - Pricing Template in Microsoft Excel format",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "b342698f"
+  },
+  {
+    "type": "submission",
+    "requirement": "Input proposed rates, contract rates, proposed discount, discount percentage, and Contract Access Fee percentage in the Pricing Template",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "b342698f"
+  },
+  {
+    "type": "submission",
+    "requirement": "Identify proposed alternate labor categories and provide qualifications if different from those specified",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "b342698f"
+  },
+  {
+    "type": "formatting",
+    "requirement": "All prices shall be rounded to two (2) decimal places, with rounding occurring in individual cells not at the end of calculations.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "eefce2fe"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Quoters shall not hide or lock cells in the template.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "eefce2fe"
+  },
+  {
+    "type": "submission",
+    "requirement": "Quoters shall leave the Price Quote Template as an Excel spreadsheet when submitting their price quote.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "eefce2fe"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Comply with page limits and other formatting requirements for the proposal response",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "a56a20e3"
+  },
+  {
+    "type": "submission",
+    "requirement": "Submit proposal response according to instructions",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "a56a20e3"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Submit Volume 1: Tab B for Phase I corporate experience",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "abcd628c"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Submit Volume 2: Tab C for Phase II management approach and staffing plan",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "abcd628c"
+  },
+  {
+    "type": "formatting",
+    "requirement": "Complete Attachment 4 - Pricing Template",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "44febd50"
+  },
+  {
+    "type": "submission",
+    "requirement": "Submit Volume 2: Tab D, Phase II submission",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "44febd50"
+  },
+  {
+    "type": "compliance",
+    "requirement": "Meet or comply with price quote instructions",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "44febd50"
+  },
+  {
+    "type": "submission",
+    "requirement": "The quote must conform to the RFQ.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "809756f7"
+  },
+  {
+    "type": "submission",
+    "requirement": "Quotes must be submitted in response to the solicitation",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "0a28ad2b"
+  },
+  {
+    "type": "submission",
+    "requirement": "Contractors are strongly encouraged to submit their best technical and price Quotes.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "a294f9e3"
+  },
+  {
+    "type": "submission",
+    "requirement": "Proposals will be evaluated in two phases: Phase I and Phase II.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "bfcc191b"
+  },
+  {
+    "type": "evaluation",
+    "requirement": "Phase I is more important than Phase II in the evaluation.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "bfcc191b"
+  },
+  {
+    "type": "evaluation",
+    "requirement": "Non-price factors in Phase II are equal to price.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "bfcc191b"
+  },
+  {
+    "type": "evaluation",
+    "requirement": "All non-price factors combined are significantly more important than price.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "bfcc191b"
+  },
+  {
+    "type": "evaluation",
+    "requirement": "Non-price factors will be evaluated using confidence ratings: High Confidence, Some Confidence, and Low Confidence.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "bfcc191b"
+  },
+  {
+    "type": "evaluation",
+    "requirement": "Corporate Experience ratings from Phase I will carry forward to Phase II award decision.",
+    "source": "data/NatSec_DoD/opportunities/DHS_ICE_CALEA_T3ILU/solicitation/RFQ 70CMSD25Q00000007 RFQ_Letter_T3LU CALEA_A00001.1751046464593.pdf",
+    "chunk_id": "bfcc191b"
   }
 ]
