@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import ThemeToggle from '../components/ThemeToggle';
+import FileExplorer from '../components/FileExplorer';
 
 export default function Home() {
   const [portfolios, setPortfolios] = useState<string[]>([]);
@@ -26,28 +27,48 @@ export default function Home() {
       .catch((err) => console.error('Failed to fetch opportunities:', err));
   }, [selectedPortfolio]);
 
+  // Persist selection to localStorage
+  useEffect(() => {
+    const storedPortfolio = localStorage.getItem('portfolio');
+    const storedOpportunity = localStorage.getItem('opportunity');
+    if (storedPortfolio) setSelectedPortfolio(storedPortfolio);
+    if (storedOpportunity) setSelectedOpportunity(storedOpportunity);
+  }, []);
+
+  useEffect(() => {
+    if (selectedPortfolio) {
+      localStorage.setItem('portfolio', selectedPortfolio);
+    }
+  }, [selectedPortfolio]);
+
+  useEffect(() => {
+    if (selectedOpportunity) {
+      localStorage.setItem('opportunity', selectedOpportunity);
+    }
+  }, [selectedOpportunity]);
+
   return (
     <div className="flex min-h-screen">
       {/* Main content */}
       <div
-        className="flex-1 space-y-6 px-6 py-8"
+        className="flex-1 space-y-6 px-6 py-4"
         style={{
           background: 'linear-gradient(to bottom right, #e8eafc, #f3f8e1)',
         }}
       >
-        {/* Theme Toggle */}
-        <div className="flex justify-end">
+        {/* Header: Title + Theme Toggle */}
+        <div className="flex items-center justify-between mb-2">
+          <h1 className="text-[28px] font-bold tracking-tight text-[#1a18b9]">
+            Sol Connect
+          </h1>
           <ThemeToggle />
         </div>
 
-        {/* Page Title */}
-        <h1 className="text-[32px] font-bold tracking-tight text-[#1a18b9]">Sol Connect</h1>
-
-        {/* Dropdowns + Create Opportunity Button */}
-        <div className="flex flex-wrap gap-4 max-w-xl items-center">
+        {/* Portfolio + Opportunity + Create */}
+        <div className="flex flex-wrap sm:flex-nowrap gap-4 max-w-4xl items-center">
           {/* Portfolio Dropdown */}
           <select
-            className="form-input w-full h-12 rounded-lg border border-gray-300 bg-white px-4 text-sm text-[#101518]"
+            className="form-input flex-1 h-12 rounded-lg border border-gray-300 bg-white px-4 text-sm text-[#101518]"
             value={selectedPortfolio}
             onChange={(e) => {
               setSelectedPortfolio(e.target.value);
@@ -62,58 +83,63 @@ export default function Home() {
             ))}
           </select>
 
-          {/* Opportunity Dropdown + Create Button */}
-          <div className="flex gap-2 w-full">
-            <select
-              className="form-input flex-1 h-12 rounded-lg border border-gray-300 bg-white px-4 text-sm text-[#101518]"
-              value={selectedOpportunity}
-              onChange={(e) => setSelectedOpportunity(e.target.value)}
-              disabled={!selectedPortfolio}
-            >
-              <option value="">Select Opportunity</option>
-              {opportunities.map((o) => (
-                <option key={o} value={o}>
-                  {o}
-                </option>
-              ))}
-            </select>
+          {/* Opportunity Dropdown */}
+          <select
+            className="form-input flex-1 h-12 rounded-lg border border-gray-300 bg-white px-4 text-sm text-[#101518]"
+            value={selectedOpportunity}
+            onChange={(e) => setSelectedOpportunity(e.target.value)}
+            disabled={!selectedPortfolio}
+          >
+            <option value="">Select Opportunity</option>
+            {opportunities.map((o) => (
+              <option key={o} value={o}>
+                {o}
+              </option>
+            ))}
+          </select>
 
-            <button
-              onClick={async () => {
-                const name = prompt("Enter name for new opportunity:");
-                if (!name) return;
-                if (!selectedPortfolio) {
-                  alert("Please select a portfolio first.");
-                  return;
+          {/* + Create Opportunity */}
+          <button
+            onClick={async () => {
+              const name = prompt('Enter name for new opportunity:');
+              if (!name) return;
+              if (!selectedPortfolio) {
+                alert('Please select a portfolio first.');
+                return;
+              }
+
+              const res = await fetch(
+                `/api/portfolios/${selectedPortfolio}/opportunities/create`,
+                {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify({ name }),
                 }
+              );
 
-                const res = await fetch(
-                  `/api/portfolios/${selectedPortfolio}/opportunities/create`,
-                  {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({ name }),
-                  }
-                );
-
-                if (res.ok) {
-                  const updated = await fetch(
-                    `/api/portfolios/${selectedPortfolio}/opportunities`
-                  ).then((res) => res.json());
-                  setOpportunities(updated);
-                  setSelectedOpportunity(name);
-                } else {
-                  alert("Failed to create opportunity");
-                }
-              }}
-              className="rounded-lg bg-[#1a18b9] text-white px-4 py-2 text-sm font-medium hover:bg-[#1414a3]"
-            >
-              + Create
-            </button>
-          </div>
+              if (res.ok) {
+                const updated = await fetch(
+                  `/api/portfolios/${selectedPortfolio}/opportunities`
+                ).then((res) => res.json());
+                setOpportunities(updated);
+                setSelectedOpportunity(name);
+              } else {
+                alert('Failed to create opportunity');
+              }
+            }}
+            title="Create Opportunity"
+            className="rounded-full bg-[#1a18b9] text-white w-10 h-10 flex items-center justify-center text-lg font-bold hover:bg-[#1414a3]"
+          >
+            +
+          </button>
         </div>
 
-        {/* You can render document data below based on selections */}
+        {/* File Explorer */}
+        {selectedOpportunity && (
+          <FileExplorer
+            basePrefix={`${selectedPortfolio}/opportunities/${selectedOpportunity}/`}
+          />
+        )}
       </div>
 
       {/* Right panel */}
@@ -124,13 +150,12 @@ export default function Home() {
             alt="Ritchie's Logo"
             className="w-24 h-24 mx-auto mb-4 rounded-full border border-gray-200 shadow-sm"
           />
-
-          <h2 className="text-2xl font-bold text-[#1a18b9] mb-1">Ritchie’s Den</h2>
-
+          <h2 className="text-2xl font-bold text-[#1a18b9] mb-1">
+            Ritchie’s Den
+          </h2>
           <p className="text-sm italic text-gray-600 mb-3">
             Sol-searching? <span className="not-italic">We’ve got the answers.</span>
           </p>
-
           <p className="text-sm text-[#444] font-medium leading-relaxed tracking-wide">
             <span className="block text-base font-semibold text-[#1a18b9] mb-1">
               Welcome to your unfair advantage in proposal development!
